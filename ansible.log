@@ -1,0 +1,844 @@
+2024-07-09 11:40:27,627 p=13198 u=stack n=ansible | [DEPRECATION WARNING]: ANSIBLE_CALLBACK_WHITELIST option, normalizing names to 
+new standard, use ANSIBLE_CALLBACKS_ENABLED instead. This feature will be 
+removed from ansible-core in version 2.15. Deprecation warnings can be disabled
+ by setting deprecation_warnings=False in ansible.cfg.
+2024-07-09 11:40:27,627 p=13198 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_TIMEOUT option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-09 11:40:27,864 p=13198 u=stack n=ansible | Tuesday 09 July 2024  11:40:27 +0530 (0:00:00.029)       0:00:00.029 ********** 
+2024-07-09 11:40:28,482 p=13198 u=stack n=ansible | Tuesday 09 July 2024  11:40:28 +0530 (0:00:00.618)       0:00:00.647 ********** 
+2024-07-09 11:40:28,572 p=13198 u=stack n=ansible | Tuesday 09 July 2024  11:40:28 +0530 (0:00:00.089)       0:00:00.737 ********** 
+2024-07-09 11:40:28,572 p=13198 u=stack n=ansible | =============================================================================== 
+2024-07-09 11:40:28,573 p=13198 u=stack n=ansible | undercloud_disabled_services : Check Services are running --------------- 0.62s
+2024-07-09 11:40:28,573 p=13198 u=stack n=ansible | undercloud_disabled_services : Fail if services were running ------------ 0.09s
+2024-07-09 11:40:29,581 p=13213 u=stack n=ansible | [DEPRECATION WARNING]: ANSIBLE_CALLBACK_WHITELIST option, normalizing names to 
+new standard, use ANSIBLE_CALLBACKS_ENABLED instead. This feature will be 
+removed from ansible-core in version 2.15. Deprecation warnings can be disabled
+ by setting deprecation_warnings=False in ansible.cfg.
+2024-07-09 11:40:29,582 p=13213 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_TIMEOUT option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-09 11:40:29,826 p=13213 u=stack n=ansible | Tuesday 09 July 2024  11:40:29 +0530 (0:00:00.030)       0:00:00.030 ********** 
+2024-07-09 11:40:29,890 p=13213 u=stack n=ansible | Tuesday 09 July 2024  11:40:29 +0530 (0:00:00.063)       0:00:00.094 ********** 
+2024-07-09 11:40:31,816 p=13213 u=stack n=ansible | Tuesday 09 July 2024  11:40:31 +0530 (0:00:01.926)       0:00:02.020 ********** 
+2024-07-09 11:40:31,881 p=13213 u=stack n=ansible | Tuesday 09 July 2024  11:40:31 +0530 (0:00:00.064)       0:00:02.084 ********** 
+2024-07-09 11:40:32,054 p=13213 u=stack n=ansible | Tuesday 09 July 2024  11:40:32 +0530 (0:00:00.172)       0:00:02.257 ********** 
+2024-07-09 11:40:33,427 p=13213 u=stack n=ansible | Tuesday 09 July 2024  11:40:33 +0530 (0:00:01.373)       0:00:03.630 ********** 
+2024-07-09 11:40:33,767 p=13213 u=stack n=ansible | Tuesday 09 July 2024  11:40:33 +0530 (0:00:00.340)       0:00:03.971 ********** 
+2024-07-09 11:40:33,768 p=13213 u=stack n=ansible | =============================================================================== 
+2024-07-09 11:40:33,768 p=13213 u=stack n=ansible | undercloud_disk_space : Stat volume directories ------------------------- 1.93s
+2024-07-09 11:40:33,769 p=13213 u=stack n=ansible | undercloud_disk_space : Loop on volumes and gather available space ------ 1.37s
+2024-07-09 11:40:33,769 p=13213 u=stack n=ansible | undercloud_disk_space : Fail if any of the volumes are too small -------- 0.34s
+2024-07-09 11:40:33,770 p=13213 u=stack n=ansible | undercloud_disk_space : Filter out non-existing volumes ----------------- 0.17s
+2024-07-09 11:40:33,771 p=13213 u=stack n=ansible | undercloud_disk_space : Initialize existing_volumes to an empty array --- 0.06s
+2024-07-09 11:40:33,771 p=13213 u=stack n=ansible | undercloud_disk_space : Set a constant defining number of Bytes in 1 GB --- 0.06s
+2024-07-09 11:49:47,887 p=13498 u=stack n=ansible | [DEPRECATION WARNING]: ANSIBLE_CALLBACK_WHITELIST option, normalizing names to 
+new standard, use ANSIBLE_CALLBACKS_ENABLED instead. This feature will be 
+removed from ansible-core in version 2.15. Deprecation warnings can be disabled
+ by setting deprecation_warnings=False in ansible.cfg.
+2024-07-09 11:49:47,887 p=13498 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_TIMEOUT option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-09 11:49:48,139 p=13498 u=stack n=ansible | Tuesday 09 July 2024  11:49:48 +0530 (0:00:00.030)       0:00:00.030 ********** 
+2024-07-09 11:49:48,205 p=13498 u=stack n=ansible | Tuesday 09 July 2024  11:49:48 +0530 (0:00:00.064)       0:00:00.095 ********** 
+2024-07-09 11:49:50,134 p=13498 u=stack n=ansible | Tuesday 09 July 2024  11:49:50 +0530 (0:00:01.929)       0:00:02.025 ********** 
+2024-07-09 11:49:50,200 p=13498 u=stack n=ansible | Tuesday 09 July 2024  11:49:50 +0530 (0:00:00.065)       0:00:02.090 ********** 
+2024-07-09 11:49:50,330 p=13498 u=stack n=ansible | Tuesday 09 July 2024  11:49:50 +0530 (0:00:00.129)       0:00:02.220 ********** 
+2024-07-09 11:49:51,754 p=13498 u=stack n=ansible | Tuesday 09 July 2024  11:49:51 +0530 (0:00:01.424)       0:00:03.644 ********** 
+2024-07-09 11:49:52,095 p=13498 u=stack n=ansible | Tuesday 09 July 2024  11:49:52 +0530 (0:00:00.341)       0:00:03.986 ********** 
+2024-07-09 11:49:52,095 p=13498 u=stack n=ansible | =============================================================================== 
+2024-07-09 11:49:52,096 p=13498 u=stack n=ansible | undercloud_disk_space : Stat volume directories ------------------------- 1.93s
+2024-07-09 11:49:52,096 p=13498 u=stack n=ansible | undercloud_disk_space : Loop on volumes and gather available space ------ 1.42s
+2024-07-09 11:49:52,097 p=13498 u=stack n=ansible | undercloud_disk_space : Fail if any of the volumes are too small -------- 0.34s
+2024-07-09 11:49:52,098 p=13498 u=stack n=ansible | undercloud_disk_space : Filter out non-existing volumes ----------------- 0.13s
+2024-07-09 11:49:52,098 p=13498 u=stack n=ansible | undercloud_disk_space : Initialize existing_volumes to an empty array --- 0.07s
+2024-07-09 11:49:52,099 p=13498 u=stack n=ansible | undercloud_disk_space : Set a constant defining number of Bytes in 1 GB --- 0.07s
+2024-07-09 11:49:53,149 p=13557 u=stack n=ansible | [DEPRECATION WARNING]: ANSIBLE_CALLBACK_WHITELIST option, normalizing names to 
+new standard, use ANSIBLE_CALLBACKS_ENABLED instead. This feature will be 
+removed from ansible-core in version 2.15. Deprecation warnings can be disabled
+ by setting deprecation_warnings=False in ansible.cfg.
+2024-07-09 11:49:53,150 p=13557 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_TIMEOUT option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-09 11:49:53,376 p=13557 u=stack n=ansible | Tuesday 09 July 2024  11:49:53 +0530 (0:00:00.029)       0:00:00.029 ********** 
+2024-07-09 11:49:54,003 p=13557 u=stack n=ansible | Tuesday 09 July 2024  11:49:54 +0530 (0:00:00.626)       0:00:00.655 ********** 
+2024-07-09 11:49:54,093 p=13557 u=stack n=ansible | Tuesday 09 July 2024  11:49:54 +0530 (0:00:00.090)       0:00:00.746 ********** 
+2024-07-09 11:49:54,094 p=13557 u=stack n=ansible | =============================================================================== 
+2024-07-09 11:49:54,094 p=13557 u=stack n=ansible | undercloud_disabled_services : Check Services are running --------------- 0.63s
+2024-07-09 11:49:54,095 p=13557 u=stack n=ansible | undercloud_disabled_services : Fail if services were running ------------ 0.09s
+2024-07-09 11:51:11,719 p=13622 u=stack n=ansible | [DEPRECATION WARNING]: ANSIBLE_CALLBACK_WHITELIST option, normalizing names to 
+new standard, use ANSIBLE_CALLBACKS_ENABLED instead. This feature will be 
+removed from ansible-core in version 2.15. Deprecation warnings can be disabled
+ by setting deprecation_warnings=False in ansible.cfg.
+2024-07-09 11:51:11,719 p=13622 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_TIMEOUT option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-09 11:51:11,934 p=13622 u=stack n=ansible | Tuesday 09 July 2024  11:51:11 +0530 (0:00:00.026)       0:00:00.026 ********** 
+2024-07-09 11:51:12,552 p=13622 u=stack n=ansible | Tuesday 09 July 2024  11:51:12 +0530 (0:00:00.617)       0:00:00.644 ********** 
+2024-07-09 11:51:12,642 p=13622 u=stack n=ansible | Tuesday 09 July 2024  11:51:12 +0530 (0:00:00.089)       0:00:00.733 ********** 
+2024-07-09 11:51:12,642 p=13622 u=stack n=ansible | =============================================================================== 
+2024-07-09 11:51:12,643 p=13622 u=stack n=ansible | undercloud_disabled_services : Check Services are running --------------- 0.62s
+2024-07-09 11:51:12,643 p=13622 u=stack n=ansible | undercloud_disabled_services : Fail if services were running ------------ 0.09s
+2024-07-09 11:51:13,673 p=13637 u=stack n=ansible | [DEPRECATION WARNING]: ANSIBLE_CALLBACK_WHITELIST option, normalizing names to 
+new standard, use ANSIBLE_CALLBACKS_ENABLED instead. This feature will be 
+removed from ansible-core in version 2.15. Deprecation warnings can be disabled
+ by setting deprecation_warnings=False in ansible.cfg.
+2024-07-09 11:51:13,673 p=13637 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_TIMEOUT option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-09 11:51:13,917 p=13637 u=stack n=ansible | Tuesday 09 July 2024  11:51:13 +0530 (0:00:00.030)       0:00:00.030 ********** 
+2024-07-09 11:51:13,981 p=13637 u=stack n=ansible | Tuesday 09 July 2024  11:51:13 +0530 (0:00:00.063)       0:00:00.094 ********** 
+2024-07-09 11:51:15,911 p=13637 u=stack n=ansible | Tuesday 09 July 2024  11:51:15 +0530 (0:00:01.929)       0:00:02.023 ********** 
+2024-07-09 11:51:15,975 p=13637 u=stack n=ansible | Tuesday 09 July 2024  11:51:15 +0530 (0:00:00.064)       0:00:02.087 ********** 
+2024-07-09 11:51:16,100 p=13637 u=stack n=ansible | Tuesday 09 July 2024  11:51:16 +0530 (0:00:00.125)       0:00:02.213 ********** 
+2024-07-09 11:51:17,476 p=13637 u=stack n=ansible | Tuesday 09 July 2024  11:51:17 +0530 (0:00:01.375)       0:00:03.588 ********** 
+2024-07-09 11:51:17,816 p=13637 u=stack n=ansible | Tuesday 09 July 2024  11:51:17 +0530 (0:00:00.340)       0:00:03.928 ********** 
+2024-07-09 11:51:17,817 p=13637 u=stack n=ansible | =============================================================================== 
+2024-07-09 11:51:17,817 p=13637 u=stack n=ansible | undercloud_disk_space : Stat volume directories ------------------------- 1.93s
+2024-07-09 11:51:17,818 p=13637 u=stack n=ansible | undercloud_disk_space : Loop on volumes and gather available space ------ 1.38s
+2024-07-09 11:51:17,818 p=13637 u=stack n=ansible | undercloud_disk_space : Fail if any of the volumes are too small -------- 0.34s
+2024-07-09 11:51:17,819 p=13637 u=stack n=ansible | undercloud_disk_space : Filter out non-existing volumes ----------------- 0.13s
+2024-07-09 11:51:17,819 p=13637 u=stack n=ansible | undercloud_disk_space : Initialize existing_volumes to an empty array --- 0.06s
+2024-07-09 11:51:17,820 p=13637 u=stack n=ansible | undercloud_disk_space : Set a constant defining number of Bytes in 1 GB --- 0.06s
+2024-07-10 11:01:32,048 p=332859 u=stack n=ansible | [DEPRECATION WARNING]: ANSIBLE_CALLBACK_WHITELIST option, normalizing names to 
+new standard, use ANSIBLE_CALLBACKS_ENABLED instead. This feature will be 
+removed from ansible-core in version 2.15. Deprecation warnings can be disabled
+ by setting deprecation_warnings=False in ansible.cfg.
+2024-07-10 11:01:32,049 p=332859 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_TIMEOUT option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-10 11:01:32,350 p=332859 u=stack n=ansible | Wednesday 10 July 2024  11:01:32 +0530 (0:00:00.033)       0:00:00.033 ******** 
+2024-07-10 11:01:33,020 p=332859 u=stack n=ansible | Wednesday 10 July 2024  11:01:33 +0530 (0:00:00.669)       0:00:00.703 ******** 
+2024-07-10 11:01:33,112 p=332859 u=stack n=ansible | Wednesday 10 July 2024  11:01:33 +0530 (0:00:00.092)       0:00:00.795 ******** 
+2024-07-10 11:01:33,113 p=332859 u=stack n=ansible | =============================================================================== 
+2024-07-10 11:01:33,113 p=332859 u=stack n=ansible | undercloud_disabled_services : Check Services are running --------------- 0.67s
+2024-07-10 11:01:33,114 p=332859 u=stack n=ansible | undercloud_disabled_services : Fail if services were running ------------ 0.09s
+2024-07-10 11:01:34,133 p=332874 u=stack n=ansible | [DEPRECATION WARNING]: ANSIBLE_CALLBACK_WHITELIST option, normalizing names to 
+new standard, use ANSIBLE_CALLBACKS_ENABLED instead. This feature will be 
+removed from ansible-core in version 2.15. Deprecation warnings can be disabled
+ by setting deprecation_warnings=False in ansible.cfg.
+2024-07-10 11:01:34,133 p=332874 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_TIMEOUT option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-10 11:01:34,380 p=332874 u=stack n=ansible | Wednesday 10 July 2024  11:01:34 +0530 (0:00:00.031)       0:00:00.031 ******** 
+2024-07-10 11:01:34,445 p=332874 u=stack n=ansible | Wednesday 10 July 2024  11:01:34 +0530 (0:00:00.065)       0:00:00.096 ******** 
+2024-07-10 11:01:36,476 p=332874 u=stack n=ansible | Wednesday 10 July 2024  11:01:36 +0530 (0:00:02.030)       0:00:02.127 ******** 
+2024-07-10 11:01:36,540 p=332874 u=stack n=ansible | Wednesday 10 July 2024  11:01:36 +0530 (0:00:00.064)       0:00:02.191 ******** 
+2024-07-10 11:01:36,713 p=332874 u=stack n=ansible | Wednesday 10 July 2024  11:01:36 +0530 (0:00:00.172)       0:00:02.364 ******** 
+2024-07-10 11:01:38,396 p=332874 u=stack n=ansible | Wednesday 10 July 2024  11:01:38 +0530 (0:00:01.682)       0:00:04.047 ******** 
+2024-07-10 11:01:38,791 p=332874 u=stack n=ansible | Wednesday 10 July 2024  11:01:38 +0530 (0:00:00.394)       0:00:04.442 ******** 
+2024-07-10 11:01:38,792 p=332874 u=stack n=ansible | =============================================================================== 
+2024-07-10 11:01:38,792 p=332874 u=stack n=ansible | undercloud_disk_space : Stat volume directories ------------------------- 2.03s
+2024-07-10 11:01:38,793 p=332874 u=stack n=ansible | undercloud_disk_space : Loop on volumes and gather available space ------ 1.68s
+2024-07-10 11:01:38,793 p=332874 u=stack n=ansible | undercloud_disk_space : Fail if any of the volumes are too small -------- 0.40s
+2024-07-10 11:01:38,794 p=332874 u=stack n=ansible | undercloud_disk_space : Filter out non-existing volumes ----------------- 0.17s
+2024-07-10 11:01:38,794 p=332874 u=stack n=ansible | undercloud_disk_space : Set a constant defining number of Bytes in 1 GB --- 0.07s
+2024-07-10 11:01:38,795 p=332874 u=stack n=ansible | undercloud_disk_space : Initialize existing_volumes to an empty array --- 0.06s
+2024-07-10 11:17:43,883 p=357343 u=stack n=ansible | [DEPRECATION WARNING]: ANSIBLE_CALLBACK_WHITELIST option, normalizing names to 
+new standard, use ANSIBLE_CALLBACKS_ENABLED instead. This feature will be 
+removed from ansible-core in version 2.15. Deprecation warnings can be disabled
+ by setting deprecation_warnings=False in ansible.cfg.
+2024-07-10 11:17:43,883 p=357343 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_TIMEOUT option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-10 11:17:44,105 p=357343 u=stack n=ansible | Wednesday 10 July 2024  11:17:44 +0530 (0:00:00.029)       0:00:00.029 ******** 
+2024-07-10 11:17:44,725 p=357343 u=stack n=ansible | Wednesday 10 July 2024  11:17:44 +0530 (0:00:00.619)       0:00:00.649 ******** 
+2024-07-10 11:17:44,820 p=357343 u=stack n=ansible | Wednesday 10 July 2024  11:17:44 +0530 (0:00:00.095)       0:00:00.745 ******** 
+2024-07-10 11:17:44,821 p=357343 u=stack n=ansible | =============================================================================== 
+2024-07-10 11:17:44,821 p=357343 u=stack n=ansible | undercloud_disabled_services : Check Services are running --------------- 0.62s
+2024-07-10 11:17:44,822 p=357343 u=stack n=ansible | undercloud_disabled_services : Fail if services were running ------------ 0.10s
+2024-07-10 11:17:45,839 p=357358 u=stack n=ansible | [DEPRECATION WARNING]: ANSIBLE_CALLBACK_WHITELIST option, normalizing names to 
+new standard, use ANSIBLE_CALLBACKS_ENABLED instead. This feature will be 
+removed from ansible-core in version 2.15. Deprecation warnings can be disabled
+ by setting deprecation_warnings=False in ansible.cfg.
+2024-07-10 11:17:45,839 p=357358 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_TIMEOUT option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-10 11:17:46,078 p=357358 u=stack n=ansible | Wednesday 10 July 2024  11:17:46 +0530 (0:00:00.030)       0:00:00.030 ******** 
+2024-07-10 11:17:46,142 p=357358 u=stack n=ansible | Wednesday 10 July 2024  11:17:46 +0530 (0:00:00.063)       0:00:00.094 ******** 
+2024-07-10 11:17:48,119 p=357358 u=stack n=ansible | Wednesday 10 July 2024  11:17:48 +0530 (0:00:01.976)       0:00:02.070 ******** 
+2024-07-10 11:17:48,183 p=357358 u=stack n=ansible | Wednesday 10 July 2024  11:17:48 +0530 (0:00:00.065)       0:00:02.135 ******** 
+2024-07-10 11:17:48,355 p=357358 u=stack n=ansible | Wednesday 10 July 2024  11:17:48 +0530 (0:00:00.171)       0:00:02.307 ******** 
+2024-07-10 11:17:50,029 p=357358 u=stack n=ansible | Wednesday 10 July 2024  11:17:50 +0530 (0:00:01.673)       0:00:03.981 ******** 
+2024-07-10 11:17:50,422 p=357358 u=stack n=ansible | Wednesday 10 July 2024  11:17:50 +0530 (0:00:00.392)       0:00:04.373 ******** 
+2024-07-10 11:17:50,422 p=357358 u=stack n=ansible | =============================================================================== 
+2024-07-10 11:17:50,423 p=357358 u=stack n=ansible | undercloud_disk_space : Stat volume directories ------------------------- 1.98s
+2024-07-10 11:17:50,424 p=357358 u=stack n=ansible | undercloud_disk_space : Loop on volumes and gather available space ------ 1.67s
+2024-07-10 11:17:50,424 p=357358 u=stack n=ansible | undercloud_disk_space : Fail if any of the volumes are too small -------- 0.39s
+2024-07-10 11:17:50,425 p=357358 u=stack n=ansible | undercloud_disk_space : Filter out non-existing volumes ----------------- 0.17s
+2024-07-10 11:17:50,425 p=357358 u=stack n=ansible | undercloud_disk_space : Initialize existing_volumes to an empty array --- 0.06s
+2024-07-10 11:17:50,426 p=357358 u=stack n=ansible | undercloud_disk_space : Set a constant defining number of Bytes in 1 GB --- 0.06s
+2024-07-10 12:15:14,788 p=443260 u=stack n=ansible | [DEPRECATION WARNING]: ANSIBLE_CALLBACK_WHITELIST option, normalizing names to 
+new standard, use ANSIBLE_CALLBACKS_ENABLED instead. This feature will be 
+removed from ansible-core in version 2.15. Deprecation warnings can be disabled
+ by setting deprecation_warnings=False in ansible.cfg.
+2024-07-10 12:15:14,788 p=443260 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_SUBSET option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-10 12:15:14,789 p=443260 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_TIMEOUT option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-10 12:15:15,066 p=443260 u=stack n=ansible | PLAY [Overcloud Network Provision] *********************************************
+2024-07-10 12:15:15,154 p=443260 u=stack n=ansible | 2024-07-10 12:15:15.153692 | 005056b0-0bfb-a90a-5c8d-000000000004 |    SKIPPED | fail | localhost
+2024-07-10 12:15:15,232 p=443260 u=stack n=ansible | 2024-07-10 12:15:15.231483 | 005056b0-0bfb-a90a-5c8d-000000000005 |    SKIPPED | fail | localhost
+2024-07-10 12:15:15,239 p=443260 u=stack n=ansible | 2024-07-10 12:15:15.239375 | 005056b0-0bfb-a90a-5c8d-000000000006 |       TASK | Check if network deployment file already exist
+2024-07-10 12:15:15,801 p=443260 u=stack n=ansible | 2024-07-10 12:15:15.800154 | 005056b0-0bfb-a90a-5c8d-000000000006 |         OK | Check if network deployment file already exist | localhost
+2024-07-10 12:15:15,880 p=443260 u=stack n=ansible | 2024-07-10 12:15:15.879039 | 005056b0-0bfb-a90a-5c8d-000000000007 |    SKIPPED | fail | localhost
+2024-07-10 12:15:15,895 p=443260 u=stack n=ansible | 2024-07-10 12:15:15.894556 | 005056b0-0bfb-a90a-5c8d-000000000009 |       TASK | Load config from file
+2024-07-10 12:15:16,003 p=443260 u=stack n=ansible | 2024-07-10 12:15:16.002575 | 005056b0-0bfb-a90a-5c8d-000000000009 |         OK | Load config from file | localhost
+2024-07-10 12:15:16,012 p=443260 u=stack n=ansible | 2024-07-10 12:15:16.012280 | 005056b0-0bfb-a90a-5c8d-00000000000a |       TASK | Create/Update composable networks
+2024-07-10 12:15:20,199 p=443260 u=stack n=ansible | 2024-07-10 12:15:20.198010 | 005056b0-0bfb-a90a-5c8d-00000000000a |    CHANGED | Create/Update composable networks | localhost | item={'name': 'Storage', 'name_lower': 'storage', 'vip': True, 'mtu': 1500, 'subnets': {'storage_subnet': {'ip_subnet': '172.16.1.0/24', 'allocation_pools': [{'start': '172.16.1.4', 'end': '172.16.1.250'}], 'vlan': 30}}}
+2024-07-10 12:15:23,897 p=443260 u=stack n=ansible | 2024-07-10 12:15:23.896063 | 005056b0-0bfb-a90a-5c8d-00000000000a |    CHANGED | Create/Update composable networks | localhost | item={'name': 'StorageMgmt', 'name_lower': 'storage_mgmt', 'vip': True, 'mtu': 1500, 'subnets': {'storage_mgmt_subnet': {'ip_subnet': '172.16.3.0/24', 'allocation_pools': [{'start': '172.16.3.4', 'end': '172.16.3.250'}], 'vlan': 40}}}
+2024-07-10 12:15:28,628 p=443260 u=stack n=ansible | 2024-07-10 12:15:28.627476 | 005056b0-0bfb-a90a-5c8d-00000000000a |    CHANGED | Create/Update composable networks | localhost | item={'name': 'InternalApi', 'name_lower': 'internal_api', 'vip': True, 'mtu': 1500, 'subnets': {'internal_api_subnet': {'ip_subnet': '172.16.2.0/24', 'allocation_pools': [{'start': '172.16.2.4', 'end': '172.16.2.250'}], 'vlan': 20}}}
+2024-07-10 12:15:33,222 p=443260 u=stack n=ansible | 2024-07-10 12:15:33.222005 | 005056b0-0bfb-a90a-5c8d-00000000000a |    CHANGED | Create/Update composable networks | localhost | item={'name': 'Tenant', 'vip': False, 'mtu': 1500, 'name_lower': 'tenant', 'subnets': {'tenant_subnet': {'ip_subnet': '172.16.0.0/24', 'allocation_pools': [{'start': '172.16.0.4', 'end': '172.16.0.250'}], 'vlan': 50}}}
+2024-07-10 12:15:36,974 p=443260 u=stack n=ansible | 2024-07-10 12:15:36.973895 | 005056b0-0bfb-a90a-5c8d-00000000000a |    CHANGED | Create/Update composable networks | localhost | item={'name': 'External', 'name_lower': 'external', 'vip': True, 'mtu': 1500, 'subnets': {'external_subnet': {'ip_subnet': '10.0.0.0/24', 'allocation_pools': [{'start': '10.0.0.4', 'end': '10.0.0.250'}], 'gateway_ip': '10.0.0.1', 'vlan': 10}}}
+2024-07-10 12:15:36,995 p=443260 u=stack n=ansible | 2024-07-10 12:15:36.994818 | 005056b0-0bfb-a90a-5c8d-00000000000c |       TASK | Populate environment
+2024-07-10 12:15:40,952 p=443260 u=stack n=ansible | 2024-07-10 12:15:40.951657 | 005056b0-0bfb-a90a-5c8d-00000000000c |         OK | Populate environment | localhost
+2024-07-10 12:15:40,963 p=443260 u=stack n=ansible | 2024-07-10 12:15:40.963500 | 005056b0-0bfb-a90a-5c8d-00000000000d |       TASK | Write deployed networks environment file
+2024-07-10 12:15:41,930 p=443260 u=stack n=ansible | 2024-07-10 12:15:41.928930 | 005056b0-0bfb-a90a-5c8d-00000000000d |    CHANGED | Write deployed networks environment file | localhost
+2024-07-10 12:15:41,956 p=443260 u=stack n=ansible | PLAY RECAP *********************************************************************
+2024-07-10 12:15:41,957 p=443260 u=stack n=ansible | localhost                  : ok=5    changed=2    unreachable=0    failed=0    skipped=3    rescued=0    ignored=0   
+2024-07-10 12:15:41,958 p=443260 u=stack n=ansible | 2024-07-10 12:15:41.958288 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Summary Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-10 12:15:41,959 p=443260 u=stack n=ansible | 2024-07-10 12:15:41.958885 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Total Tasks: 8          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-10 12:15:41,960 p=443260 u=stack n=ansible | 2024-07-10 12:15:41.959428 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Elapsed Time: 0:00:26.954810 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-10 12:15:41,960 p=443260 u=stack n=ansible | 2024-07-10 12:15:41.960178 |                                 UUID |       Info |       Host |   Task Name |   Run Time
+2024-07-10 12:15:41,961 p=443260 u=stack n=ansible | 2024-07-10 12:15:41.960816 | 005056b0-0bfb-a90a-5c8d-00000000000a |    SUMMARY |  localhost | Create/Update composable networks | 20.97s
+2024-07-10 12:15:41,962 p=443260 u=stack n=ansible | 2024-07-10 12:15:41.961364 | 005056b0-0bfb-a90a-5c8d-00000000000c |    SUMMARY |  localhost | Populate environment | 3.96s
+2024-07-10 12:15:41,962 p=443260 u=stack n=ansible | 2024-07-10 12:15:41.962384 | 005056b0-0bfb-a90a-5c8d-00000000000d |    SUMMARY |  localhost | Write deployed networks environment file | 0.97s
+2024-07-10 12:15:41,963 p=443260 u=stack n=ansible | 2024-07-10 12:15:41.962960 | 005056b0-0bfb-a90a-5c8d-000000000006 |    SUMMARY |  localhost | Check if network deployment file already exist | 0.56s
+2024-07-10 12:15:41,964 p=443260 u=stack n=ansible | 2024-07-10 12:15:41.963590 | 005056b0-0bfb-a90a-5c8d-000000000009 |    SUMMARY |  localhost | Load config from file | 0.11s
+2024-07-10 12:15:41,964 p=443260 u=stack n=ansible | 2024-07-10 12:15:41.964393 | 005056b0-0bfb-a90a-5c8d-000000000004 |    SUMMARY |  localhost | fail | 0.07s
+2024-07-10 12:15:41,965 p=443260 u=stack n=ansible | 2024-07-10 12:15:41.964991 | 005056b0-0bfb-a90a-5c8d-000000000007 |    SUMMARY |  localhost | fail | 0.07s
+2024-07-10 12:15:41,965 p=443260 u=stack n=ansible | 2024-07-10 12:15:41.965516 | 005056b0-0bfb-a90a-5c8d-000000000005 |    SUMMARY |  localhost | fail | 0.07s
+2024-07-10 12:15:41,966 p=443260 u=stack n=ansible | 2024-07-10 12:15:41.966057 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Summary Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-10 12:25:15,405 p=454557 u=stack n=ansible | [DEPRECATION WARNING]: ANSIBLE_CALLBACK_WHITELIST option, normalizing names to 
+new standard, use ANSIBLE_CALLBACKS_ENABLED instead. This feature will be 
+removed from ansible-core in version 2.15. Deprecation warnings can be disabled
+ by setting deprecation_warnings=False in ansible.cfg.
+2024-07-10 12:25:15,406 p=454557 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_SUBSET option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-10 12:25:15,406 p=454557 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_TIMEOUT option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-10 12:25:15,678 p=454557 u=stack n=ansible | PLAY [Overcloud Virtual IPs Provision] *****************************************
+2024-07-10 12:25:15,769 p=454557 u=stack n=ansible | 2024-07-10 12:25:15.768444 | 005056b0-0bfb-79a2-2e46-000000000004 |    SKIPPED | fail | localhost
+2024-07-10 12:25:15,856 p=454557 u=stack n=ansible | 2024-07-10 12:25:15.855841 | 005056b0-0bfb-79a2-2e46-000000000005 |    SKIPPED | fail | localhost
+2024-07-10 12:25:15,949 p=454557 u=stack n=ansible | 2024-07-10 12:25:15.948019 | 005056b0-0bfb-79a2-2e46-000000000006 |    SKIPPED | fail | localhost
+2024-07-10 12:25:15,957 p=454557 u=stack n=ansible | 2024-07-10 12:25:15.956723 | 005056b0-0bfb-79a2-2e46-000000000007 |       TASK | Check if Virtual IPs deployment file already exist
+2024-07-10 12:25:16,532 p=454557 u=stack n=ansible | 2024-07-10 12:25:16.530981 | 005056b0-0bfb-79a2-2e46-000000000007 |         OK | Check if Virtual IPs deployment file already exist | localhost
+2024-07-10 12:25:16,610 p=454557 u=stack n=ansible | 2024-07-10 12:25:16.609683 | 005056b0-0bfb-79a2-2e46-000000000008 |    SKIPPED | fail | localhost
+2024-07-10 12:25:16,627 p=454557 u=stack n=ansible | 2024-07-10 12:25:16.626884 | 005056b0-0bfb-79a2-2e46-00000000000a |       TASK | Load Virtual IP data config from file
+2024-07-10 12:25:16,737 p=454557 u=stack n=ansible | 2024-07-10 12:25:16.736652 | 005056b0-0bfb-79a2-2e46-00000000000a |         OK | Load Virtual IP data config from file | localhost
+2024-07-10 12:25:16,745 p=454557 u=stack n=ansible | 2024-07-10 12:25:16.745240 | 005056b0-0bfb-79a2-2e46-00000000000b |       TASK | Create/Update Overcloud Virtual IPs
+2024-07-10 12:25:20,618 p=454557 u=stack n=ansible | 2024-07-10 12:25:20.616967 | 005056b0-0bfb-79a2-2e46-00000000000b |         OK | Create/Update Overcloud Virtual IPs | localhost
+2024-07-10 12:25:20,625 p=454557 u=stack n=ansible | 2024-07-10 12:25:20.625386 | 005056b0-0bfb-79a2-2e46-00000000000c |       TASK | Populate Overcloud Virtual IPs environment
+2024-07-10 12:25:24,521 p=454557 u=stack n=ansible | 2024-07-10 12:25:24.519838 | 005056b0-0bfb-79a2-2e46-00000000000c |    CHANGED | Populate Overcloud Virtual IPs environment | localhost
+2024-07-10 12:25:24,530 p=454557 u=stack n=ansible | 2024-07-10 12:25:24.529984 | 005056b0-0bfb-79a2-2e46-00000000000d |       TASK | Write deployed Virtual IPs environment file
+2024-07-10 12:25:25,489 p=454557 u=stack n=ansible | 2024-07-10 12:25:25.488413 | 005056b0-0bfb-79a2-2e46-00000000000d |    CHANGED | Write deployed Virtual IPs environment file | localhost
+2024-07-10 12:25:25,510 p=454557 u=stack n=ansible | PLAY RECAP *********************************************************************
+2024-07-10 12:25:25,511 p=454557 u=stack n=ansible | localhost                  : ok=5    changed=2    unreachable=0    failed=0    skipped=4    rescued=0    ignored=0   
+2024-07-10 12:25:25,512 p=454557 u=stack n=ansible | 2024-07-10 12:25:25.512073 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Summary Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-10 12:25:25,513 p=454557 u=stack n=ansible | 2024-07-10 12:25:25.512691 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Total Tasks: 9          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-10 12:25:25,513 p=454557 u=stack n=ansible | 2024-07-10 12:25:25.513266 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Elapsed Time: 0:00:09.896432 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-10 12:25:25,517 p=454557 u=stack n=ansible | 2024-07-10 12:25:25.513835 |                                 UUID |       Info |       Host |   Task Name |   Run Time
+2024-07-10 12:25:25,518 p=454557 u=stack n=ansible | 2024-07-10 12:25:25.517603 | 005056b0-0bfb-79a2-2e46-00000000000c |    SUMMARY |  localhost | Populate Overcloud Virtual IPs environment | 3.89s
+2024-07-10 12:25:25,518 p=454557 u=stack n=ansible | 2024-07-10 12:25:25.518194 | 005056b0-0bfb-79a2-2e46-00000000000b |    SUMMARY |  localhost | Create/Update Overcloud Virtual IPs | 3.87s
+2024-07-10 12:25:25,519 p=454557 u=stack n=ansible | 2024-07-10 12:25:25.518733 | 005056b0-0bfb-79a2-2e46-00000000000d |    SUMMARY |  localhost | Write deployed Virtual IPs environment file | 0.96s
+2024-07-10 12:25:25,519 p=454557 u=stack n=ansible | 2024-07-10 12:25:25.519240 | 005056b0-0bfb-79a2-2e46-000000000007 |    SUMMARY |  localhost | Check if Virtual IPs deployment file already exist | 0.57s
+2024-07-10 12:25:25,520 p=454557 u=stack n=ansible | 2024-07-10 12:25:25.519789 | 005056b0-0bfb-79a2-2e46-00000000000a |    SUMMARY |  localhost | Load Virtual IP data config from file | 0.11s
+2024-07-10 12:25:25,520 p=454557 u=stack n=ansible | 2024-07-10 12:25:25.520452 | 005056b0-0bfb-79a2-2e46-000000000006 |    SUMMARY |  localhost | fail | 0.08s
+2024-07-10 12:25:25,521 p=454557 u=stack n=ansible | 2024-07-10 12:25:25.521016 | 005056b0-0bfb-79a2-2e46-000000000005 |    SUMMARY |  localhost | fail | 0.08s
+2024-07-10 12:25:25,521 p=454557 u=stack n=ansible | 2024-07-10 12:25:25.521540 | 005056b0-0bfb-79a2-2e46-000000000004 |    SUMMARY |  localhost | fail | 0.07s
+2024-07-10 12:25:25,522 p=454557 u=stack n=ansible | 2024-07-10 12:25:25.522094 | 005056b0-0bfb-79a2-2e46-000000000008 |    SUMMARY |  localhost | fail | 0.07s
+2024-07-10 12:25:25,523 p=454557 u=stack n=ansible | 2024-07-10 12:25:25.522607 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Summary Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 12:36:59,373 p=2381 u=stack n=ansible | [DEPRECATION WARNING]: ANSIBLE_CALLBACK_WHITELIST option, normalizing names to 
+new standard, use ANSIBLE_CALLBACKS_ENABLED instead. This feature will be 
+removed from ansible-core in version 2.15. Deprecation warnings can be disabled
+ by setting deprecation_warnings=False in ansible.cfg.
+2024-07-11 12:36:59,374 p=2381 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_SUBSET option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-11 12:36:59,374 p=2381 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_TIMEOUT option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-11 12:36:59,646 p=2381 u=stack n=ansible | PLAY [Overcloud Network Provision] *********************************************
+2024-07-11 12:36:59,732 p=2381 u=stack n=ansible | 2024-07-11 12:36:59.730939 | 005056b0-0bfb-720c-330d-000000000004 |    SKIPPED | fail | localhost
+2024-07-11 12:36:59,809 p=2381 u=stack n=ansible | 2024-07-11 12:36:59.808462 | 005056b0-0bfb-720c-330d-000000000005 |    SKIPPED | fail | localhost
+2024-07-11 12:36:59,816 p=2381 u=stack n=ansible | 2024-07-11 12:36:59.816400 | 005056b0-0bfb-720c-330d-000000000006 |       TASK | Check if network deployment file already exist
+2024-07-11 12:37:00,376 p=2381 u=stack n=ansible | 2024-07-11 12:37:00.375665 | 005056b0-0bfb-720c-330d-000000000006 |         OK | Check if network deployment file already exist | localhost
+2024-07-11 12:37:00,448 p=2381 u=stack n=ansible | 2024-07-11 12:37:00.447579 | 005056b0-0bfb-720c-330d-000000000007 |    SKIPPED | fail | localhost
+2024-07-11 12:37:00,464 p=2381 u=stack n=ansible | 2024-07-11 12:37:00.463582 | 005056b0-0bfb-720c-330d-000000000009 |       TASK | Load config from file
+2024-07-11 12:37:00,569 p=2381 u=stack n=ansible | 2024-07-11 12:37:00.568861 | 005056b0-0bfb-720c-330d-000000000009 |         OK | Load config from file | localhost
+2024-07-11 12:37:00,577 p=2381 u=stack n=ansible | 2024-07-11 12:37:00.577180 | 005056b0-0bfb-720c-330d-00000000000a |       TASK | Create/Update composable networks
+2024-07-11 12:37:03,473 p=2381 u=stack n=ansible | 2024-07-11 12:37:03.472383 | 005056b0-0bfb-720c-330d-00000000000a |         OK | Create/Update composable networks | localhost | item={'name': 'Storage', 'name_lower': 'storage', 'vip': True, 'mtu': 1500, 'subnets': {'storage_subnet': {'ip_subnet': '172.16.1.0/24', 'allocation_pools': [{'start': '172.16.1.4', 'end': '172.16.1.250'}], 'vlan': 30}}}
+2024-07-11 12:37:06,139 p=2381 u=stack n=ansible | 2024-07-11 12:37:06.138021 | 005056b0-0bfb-720c-330d-00000000000a |         OK | Create/Update composable networks | localhost | item={'name': 'StorageMgmt', 'name_lower': 'storage_mgmt', 'vip': True, 'mtu': 1500, 'subnets': {'storage_mgmt_subnet': {'ip_subnet': '172.16.3.0/24', 'allocation_pools': [{'start': '172.16.3.4', 'end': '172.16.3.250'}], 'vlan': 40}}}
+2024-07-11 12:37:09,607 p=2381 u=stack n=ansible | 2024-07-11 12:37:09.606554 | 005056b0-0bfb-720c-330d-00000000000a |         OK | Create/Update composable networks | localhost | item={'name': 'InternalApi', 'name_lower': 'internal_api', 'vip': True, 'mtu': 1500, 'subnets': {'internal_api_subnet': {'ip_subnet': '172.16.2.0/24', 'allocation_pools': [{'start': '172.16.2.4', 'end': '172.16.2.250'}], 'vlan': 20}}}
+2024-07-11 12:37:12,729 p=2381 u=stack n=ansible | 2024-07-11 12:37:12.728757 | 005056b0-0bfb-720c-330d-00000000000a |         OK | Create/Update composable networks | localhost | item={'name': 'Tenant', 'vip': False, 'mtu': 1500, 'name_lower': 'tenant', 'subnets': {'tenant_subnet': {'ip_subnet': '172.16.0.0/24', 'allocation_pools': [{'start': '172.16.0.4', 'end': '172.16.0.250'}], 'vlan': 50}}}
+2024-07-11 12:37:15,341 p=2381 u=stack n=ansible | 2024-07-11 12:37:15.340732 | 005056b0-0bfb-720c-330d-00000000000a |         OK | Create/Update composable networks | localhost | item={'name': 'External', 'name_lower': 'external', 'vip': True, 'mtu': 1500, 'subnets': {'external_subnet': {'ip_subnet': '10.0.0.0/24', 'allocation_pools': [{'start': '10.0.0.4', 'end': '10.0.0.250'}], 'gateway_ip': '10.0.0.1', 'vlan': 10}}}
+2024-07-11 12:37:15,361 p=2381 u=stack n=ansible | 2024-07-11 12:37:15.360971 | 005056b0-0bfb-720c-330d-00000000000c |       TASK | Populate environment
+2024-07-11 12:37:18,263 p=2381 u=stack n=ansible | 2024-07-11 12:37:18.262022 | 005056b0-0bfb-720c-330d-00000000000c |         OK | Populate environment | localhost
+2024-07-11 12:37:18,274 p=2381 u=stack n=ansible | 2024-07-11 12:37:18.274042 | 005056b0-0bfb-720c-330d-00000000000d |       TASK | Write deployed networks environment file
+2024-07-11 12:37:19,210 p=2381 u=stack n=ansible | 2024-07-11 12:37:19.209676 | 005056b0-0bfb-720c-330d-00000000000d |    CHANGED | Write deployed networks environment file | localhost
+2024-07-11 12:37:19,231 p=2381 u=stack n=ansible | PLAY RECAP *********************************************************************
+2024-07-11 12:37:19,232 p=2381 u=stack n=ansible | localhost                  : ok=5    changed=1    unreachable=0    failed=0    skipped=3    rescued=0    ignored=0   
+2024-07-11 12:37:19,233 p=2381 u=stack n=ansible | 2024-07-11 12:37:19.232965 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Summary Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 12:37:19,233 p=2381 u=stack n=ansible | 2024-07-11 12:37:19.233502 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Total Tasks: 8          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 12:37:19,234 p=2381 u=stack n=ansible | 2024-07-11 12:37:19.234081 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Elapsed Time: 0:00:19.649058 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 12:37:19,235 p=2381 u=stack n=ansible | 2024-07-11 12:37:19.234890 |                                 UUID |       Info |       Host |   Task Name |   Run Time
+2024-07-11 12:37:19,235 p=2381 u=stack n=ansible | 2024-07-11 12:37:19.235366 | 005056b0-0bfb-720c-330d-00000000000a |    SUMMARY |  localhost | Create/Update composable networks | 14.77s
+2024-07-11 12:37:19,236 p=2381 u=stack n=ansible | 2024-07-11 12:37:19.235895 | 005056b0-0bfb-720c-330d-00000000000c |    SUMMARY |  localhost | Populate environment | 2.90s
+2024-07-11 12:37:19,236 p=2381 u=stack n=ansible | 2024-07-11 12:37:19.236536 | 005056b0-0bfb-720c-330d-00000000000d |    SUMMARY |  localhost | Write deployed networks environment file | 0.94s
+2024-07-11 12:37:19,237 p=2381 u=stack n=ansible | 2024-07-11 12:37:19.237078 | 005056b0-0bfb-720c-330d-000000000006 |    SUMMARY |  localhost | Check if network deployment file already exist | 0.56s
+2024-07-11 12:37:19,238 p=2381 u=stack n=ansible | 2024-07-11 12:37:19.237579 | 005056b0-0bfb-720c-330d-000000000009 |    SUMMARY |  localhost | Load config from file | 0.11s
+2024-07-11 12:37:19,238 p=2381 u=stack n=ansible | 2024-07-11 12:37:19.238140 | 005056b0-0bfb-720c-330d-000000000005 |    SUMMARY |  localhost | fail | 0.07s
+2024-07-11 12:37:19,239 p=2381 u=stack n=ansible | 2024-07-11 12:37:19.238701 | 005056b0-0bfb-720c-330d-000000000004 |    SUMMARY |  localhost | fail | 0.07s
+2024-07-11 12:37:19,239 p=2381 u=stack n=ansible | 2024-07-11 12:37:19.239273 | 005056b0-0bfb-720c-330d-000000000007 |    SUMMARY |  localhost | fail | 0.06s
+2024-07-11 12:37:19,240 p=2381 u=stack n=ansible | 2024-07-11 12:37:19.239818 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Summary Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 12:44:41,464 p=11775 u=stack n=ansible | [DEPRECATION WARNING]: ANSIBLE_CALLBACK_WHITELIST option, normalizing names to 
+new standard, use ANSIBLE_CALLBACKS_ENABLED instead. This feature will be 
+removed from ansible-core in version 2.15. Deprecation warnings can be disabled
+ by setting deprecation_warnings=False in ansible.cfg.
+2024-07-11 12:44:41,465 p=11775 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_SUBSET option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-11 12:44:41,465 p=11775 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_TIMEOUT option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-11 12:44:41,734 p=11775 u=stack n=ansible | PLAY [Overcloud Virtual IPs Provision] *****************************************
+2024-07-11 12:44:41,822 p=11775 u=stack n=ansible | 2024-07-11 12:44:41.821873 | 005056b0-0bfb-5f31-56ad-000000000004 |    SKIPPED | fail | localhost
+2024-07-11 12:44:41,901 p=11775 u=stack n=ansible | 2024-07-11 12:44:41.900047 | 005056b0-0bfb-5f31-56ad-000000000005 |    SKIPPED | fail | localhost
+2024-07-11 12:44:41,981 p=11775 u=stack n=ansible | 2024-07-11 12:44:41.979852 | 005056b0-0bfb-5f31-56ad-000000000006 |    SKIPPED | fail | localhost
+2024-07-11 12:44:41,989 p=11775 u=stack n=ansible | 2024-07-11 12:44:41.988646 | 005056b0-0bfb-5f31-56ad-000000000007 |       TASK | Check if Virtual IPs deployment file already exist
+2024-07-11 12:44:42,552 p=11775 u=stack n=ansible | 2024-07-11 12:44:42.550871 | 005056b0-0bfb-5f31-56ad-000000000007 |         OK | Check if Virtual IPs deployment file already exist | localhost
+2024-07-11 12:44:42,623 p=11775 u=stack n=ansible | 2024-07-11 12:44:42.622285 | 005056b0-0bfb-5f31-56ad-000000000008 |    SKIPPED | fail | localhost
+2024-07-11 12:44:42,639 p=11775 u=stack n=ansible | 2024-07-11 12:44:42.639464 | 005056b0-0bfb-5f31-56ad-00000000000a |       TASK | Load Virtual IP data config from file
+2024-07-11 12:44:42,743 p=11775 u=stack n=ansible | 2024-07-11 12:44:42.742165 | 005056b0-0bfb-5f31-56ad-00000000000a |         OK | Load Virtual IP data config from file | localhost
+2024-07-11 12:44:42,751 p=11775 u=stack n=ansible | 2024-07-11 12:44:42.750922 | 005056b0-0bfb-5f31-56ad-00000000000b |       TASK | Create/Update Overcloud Virtual IPs
+2024-07-11 12:44:45,377 p=11775 u=stack n=ansible | 2024-07-11 12:44:45.376055 | 005056b0-0bfb-5f31-56ad-00000000000b |      FATAL | Create/Update Overcloud Virtual IPs | localhost | error={"changed": false, "error": "Subnet external_vip_subnet for Virtual IP not found on network external.", "msg": "Error provisioning Virtual IPs for overcloud stack overcloud: Subnet external_vip_subnet for Virtual IP not found on network external.", "success": false}
+2024-07-11 12:44:45,379 p=11775 u=stack n=ansible | NO MORE HOSTS LEFT *************************************************************
+2024-07-11 12:44:45,381 p=11775 u=stack n=ansible | PLAY RECAP *********************************************************************
+2024-07-11 12:44:45,382 p=11775 u=stack n=ansible | localhost                  : ok=2    changed=0    unreachable=0    failed=1    skipped=4    rescued=0    ignored=0   
+2024-07-11 12:44:45,383 p=11775 u=stack n=ansible | 2024-07-11 12:44:45.382649 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Summary Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 12:44:45,383 p=11775 u=stack n=ansible | 2024-07-11 12:44:45.383229 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Total Tasks: 7          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 12:44:45,384 p=11775 u=stack n=ansible | 2024-07-11 12:44:45.383854 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Elapsed Time: 0:00:03.711005 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 12:44:45,384 p=11775 u=stack n=ansible | 2024-07-11 12:44:45.384473 |                                 UUID |       Info |       Host |   Task Name |   Run Time
+2024-07-11 12:44:45,385 p=11775 u=stack n=ansible | 2024-07-11 12:44:45.385058 | 005056b0-0bfb-5f31-56ad-00000000000b |    SUMMARY |  localhost | Create/Update Overcloud Virtual IPs | 2.62s
+2024-07-11 12:44:45,385 p=11775 u=stack n=ansible | 2024-07-11 12:44:45.385567 | 005056b0-0bfb-5f31-56ad-000000000007 |    SUMMARY |  localhost | Check if Virtual IPs deployment file already exist | 0.56s
+2024-07-11 12:44:45,386 p=11775 u=stack n=ansible | 2024-07-11 12:44:45.386097 | 005056b0-0bfb-5f31-56ad-00000000000a |    SUMMARY |  localhost | Load Virtual IP data config from file | 0.10s
+2024-07-11 12:44:45,387 p=11775 u=stack n=ansible | 2024-07-11 12:44:45.386596 | 005056b0-0bfb-5f31-56ad-000000000004 |    SUMMARY |  localhost | fail | 0.07s
+2024-07-11 12:44:45,387 p=11775 u=stack n=ansible | 2024-07-11 12:44:45.387125 | 005056b0-0bfb-5f31-56ad-000000000006 |    SUMMARY |  localhost | fail | 0.07s
+2024-07-11 12:44:45,387 p=11775 u=stack n=ansible | 2024-07-11 12:44:45.387611 | 005056b0-0bfb-5f31-56ad-000000000005 |    SUMMARY |  localhost | fail | 0.07s
+2024-07-11 12:44:45,388 p=11775 u=stack n=ansible | 2024-07-11 12:44:45.388097 | 005056b0-0bfb-5f31-56ad-000000000008 |    SUMMARY |  localhost | fail | 0.06s
+2024-07-11 12:44:45,388 p=11775 u=stack n=ansible | 2024-07-11 12:44:45.388553 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Summary Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 12:44:45,389 p=11775 u=stack n=ansible | 2024-07-11 12:44:45.389077 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ State Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 12:44:45,389 p=11775 u=stack n=ansible | 2024-07-11 12:44:45.389567 | ~~~~~~~~~~~~~~~~~~ Number of nodes which did not deploy successfully: 1 ~~~~~~~~~~~~~~~~~
+2024-07-11 12:44:45,390 p=11775 u=stack n=ansible | 2024-07-11 12:44:45.390062 |  The following node(s) had failures: localhost
+2024-07-11 12:44:45,390 p=11775 u=stack n=ansible | 2024-07-11 12:44:45.390526 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 12:49:02,342 p=16554 u=stack n=ansible | [DEPRECATION WARNING]: ANSIBLE_CALLBACK_WHITELIST option, normalizing names to 
+new standard, use ANSIBLE_CALLBACKS_ENABLED instead. This feature will be 
+removed from ansible-core in version 2.15. Deprecation warnings can be disabled
+ by setting deprecation_warnings=False in ansible.cfg.
+2024-07-11 12:49:02,342 p=16554 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_SUBSET option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-11 12:49:02,343 p=16554 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_TIMEOUT option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-11 12:49:02,620 p=16554 u=stack n=ansible | PLAY [Overcloud Virtual IPs Provision] *****************************************
+2024-07-11 12:49:02,708 p=16554 u=stack n=ansible | 2024-07-11 12:49:02.707595 | 005056b0-0bfb-42a1-5301-000000000004 |    SKIPPED | fail | localhost
+2024-07-11 12:49:02,791 p=16554 u=stack n=ansible | 2024-07-11 12:49:02.789790 | 005056b0-0bfb-42a1-5301-000000000005 |    SKIPPED | fail | localhost
+2024-07-11 12:49:02,869 p=16554 u=stack n=ansible | 2024-07-11 12:49:02.868669 | 005056b0-0bfb-42a1-5301-000000000006 |    SKIPPED | fail | localhost
+2024-07-11 12:49:02,877 p=16554 u=stack n=ansible | 2024-07-11 12:49:02.876900 | 005056b0-0bfb-42a1-5301-000000000007 |       TASK | Check if Virtual IPs deployment file already exist
+2024-07-11 12:49:03,424 p=16554 u=stack n=ansible | 2024-07-11 12:49:03.422736 | 005056b0-0bfb-42a1-5301-000000000007 |         OK | Check if Virtual IPs deployment file already exist | localhost
+2024-07-11 12:49:03,499 p=16554 u=stack n=ansible | 2024-07-11 12:49:03.498231 | 005056b0-0bfb-42a1-5301-000000000008 |    SKIPPED | fail | localhost
+2024-07-11 12:49:03,517 p=16554 u=stack n=ansible | 2024-07-11 12:49:03.517156 | 005056b0-0bfb-42a1-5301-00000000000a |       TASK | Load Virtual IP data config from file
+2024-07-11 12:49:03,620 p=16554 u=stack n=ansible | 2024-07-11 12:49:03.619827 | 005056b0-0bfb-42a1-5301-00000000000a |         OK | Load Virtual IP data config from file | localhost
+2024-07-11 12:49:03,631 p=16554 u=stack n=ansible | 2024-07-11 12:49:03.630734 | 005056b0-0bfb-42a1-5301-00000000000b |       TASK | Create/Update Overcloud Virtual IPs
+2024-07-11 12:49:06,323 p=16554 u=stack n=ansible | 2024-07-11 12:49:06.321948 | 005056b0-0bfb-42a1-5301-00000000000b |      FATAL | Create/Update Overcloud Virtual IPs | localhost | error={"changed": false, "error": "Subnet external_vip_subnet for Virtual IP not found on network external.", "msg": "Error provisioning Virtual IPs for overcloud stack overcloud: Subnet external_vip_subnet for Virtual IP not found on network external.", "success": false}
+2024-07-11 12:49:06,325 p=16554 u=stack n=ansible | NO MORE HOSTS LEFT *************************************************************
+2024-07-11 12:49:06,327 p=16554 u=stack n=ansible | PLAY RECAP *********************************************************************
+2024-07-11 12:49:06,328 p=16554 u=stack n=ansible | localhost                  : ok=2    changed=0    unreachable=0    failed=1    skipped=4    rescued=0    ignored=0   
+2024-07-11 12:49:06,329 p=16554 u=stack n=ansible | 2024-07-11 12:49:06.328669 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Summary Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 12:49:06,329 p=16554 u=stack n=ansible | 2024-07-11 12:49:06.329195 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Total Tasks: 7          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 12:49:06,330 p=16554 u=stack n=ansible | 2024-07-11 12:49:06.329727 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Elapsed Time: 0:00:03.772868 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 12:49:06,330 p=16554 u=stack n=ansible | 2024-07-11 12:49:06.330231 |                                 UUID |       Info |       Host |   Task Name |   Run Time
+2024-07-11 12:49:06,331 p=16554 u=stack n=ansible | 2024-07-11 12:49:06.330754 | 005056b0-0bfb-42a1-5301-00000000000b |    SUMMARY |  localhost | Create/Update Overcloud Virtual IPs | 2.69s
+2024-07-11 12:49:06,331 p=16554 u=stack n=ansible | 2024-07-11 12:49:06.331271 | 005056b0-0bfb-42a1-5301-000000000007 |    SUMMARY |  localhost | Check if Virtual IPs deployment file already exist | 0.55s
+2024-07-11 12:49:06,332 p=16554 u=stack n=ansible | 2024-07-11 12:49:06.331792 | 005056b0-0bfb-42a1-5301-00000000000a |    SUMMARY |  localhost | Load Virtual IP data config from file | 0.10s
+2024-07-11 12:49:06,333 p=16554 u=stack n=ansible | 2024-07-11 12:49:06.332648 | 005056b0-0bfb-42a1-5301-000000000005 |    SUMMARY |  localhost | fail | 0.07s
+2024-07-11 12:49:06,333 p=16554 u=stack n=ansible | 2024-07-11 12:49:06.333177 | 005056b0-0bfb-42a1-5301-000000000004 |    SUMMARY |  localhost | fail | 0.07s
+2024-07-11 12:49:06,334 p=16554 u=stack n=ansible | 2024-07-11 12:49:06.333702 | 005056b0-0bfb-42a1-5301-000000000006 |    SUMMARY |  localhost | fail | 0.07s
+2024-07-11 12:49:06,334 p=16554 u=stack n=ansible | 2024-07-11 12:49:06.334204 | 005056b0-0bfb-42a1-5301-000000000008 |    SUMMARY |  localhost | fail | 0.07s
+2024-07-11 12:49:06,335 p=16554 u=stack n=ansible | 2024-07-11 12:49:06.334739 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Summary Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 12:49:06,335 p=16554 u=stack n=ansible | 2024-07-11 12:49:06.335251 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ State Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 12:49:06,336 p=16554 u=stack n=ansible | 2024-07-11 12:49:06.335768 | ~~~~~~~~~~~~~~~~~~ Number of nodes which did not deploy successfully: 1 ~~~~~~~~~~~~~~~~~
+2024-07-11 12:49:06,336 p=16554 u=stack n=ansible | 2024-07-11 12:49:06.336269 |  The following node(s) had failures: localhost
+2024-07-11 12:49:06,337 p=16554 u=stack n=ansible | 2024-07-11 12:49:06.336827 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 13:00:01,951 p=28819 u=stack n=ansible | [DEPRECATION WARNING]: ANSIBLE_CALLBACK_WHITELIST option, normalizing names to 
+new standard, use ANSIBLE_CALLBACKS_ENABLED instead. This feature will be 
+removed from ansible-core in version 2.15. Deprecation warnings can be disabled
+ by setting deprecation_warnings=False in ansible.cfg.
+2024-07-11 13:00:01,952 p=28819 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_SUBSET option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-11 13:00:01,952 p=28819 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_TIMEOUT option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-11 13:00:02,242 p=28819 u=stack n=ansible | PLAY [Overcloud Virtual IPs Provision] *****************************************
+2024-07-11 13:00:02,327 p=28819 u=stack n=ansible | 2024-07-11 13:00:02.326207 | 005056b0-0bfb-54f5-8267-000000000004 |    SKIPPED | fail | localhost
+2024-07-11 13:00:02,407 p=28819 u=stack n=ansible | 2024-07-11 13:00:02.406490 | 005056b0-0bfb-54f5-8267-000000000005 |    SKIPPED | fail | localhost
+2024-07-11 13:00:02,484 p=28819 u=stack n=ansible | 2024-07-11 13:00:02.483990 | 005056b0-0bfb-54f5-8267-000000000006 |    SKIPPED | fail | localhost
+2024-07-11 13:00:02,492 p=28819 u=stack n=ansible | 2024-07-11 13:00:02.492162 | 005056b0-0bfb-54f5-8267-000000000007 |       TASK | Check if Virtual IPs deployment file already exist
+2024-07-11 13:00:03,060 p=28819 u=stack n=ansible | 2024-07-11 13:00:03.058976 | 005056b0-0bfb-54f5-8267-000000000007 |         OK | Check if Virtual IPs deployment file already exist | localhost
+2024-07-11 13:00:03,137 p=28819 u=stack n=ansible | 2024-07-11 13:00:03.136889 | 005056b0-0bfb-54f5-8267-000000000008 |    SKIPPED | fail | localhost
+2024-07-11 13:00:03,153 p=28819 u=stack n=ansible | 2024-07-11 13:00:03.152670 | 005056b0-0bfb-54f5-8267-00000000000a |       TASK | Load Virtual IP data config from file
+2024-07-11 13:00:03,257 p=28819 u=stack n=ansible | 2024-07-11 13:00:03.256071 | 005056b0-0bfb-54f5-8267-00000000000a |         OK | Load Virtual IP data config from file | localhost
+2024-07-11 13:00:03,265 p=28819 u=stack n=ansible | 2024-07-11 13:00:03.265201 | 005056b0-0bfb-54f5-8267-00000000000b |       TASK | Create/Update Overcloud Virtual IPs
+2024-07-11 13:00:06,731 p=28819 u=stack n=ansible | 2024-07-11 13:00:06.730164 | 005056b0-0bfb-54f5-8267-00000000000b |         OK | Create/Update Overcloud Virtual IPs | localhost
+2024-07-11 13:00:06,739 p=28819 u=stack n=ansible | 2024-07-11 13:00:06.738920 | 005056b0-0bfb-54f5-8267-00000000000c |       TASK | Populate Overcloud Virtual IPs environment
+2024-07-11 13:00:10,007 p=28819 u=stack n=ansible | 2024-07-11 13:00:10.006256 | 005056b0-0bfb-54f5-8267-00000000000c |    CHANGED | Populate Overcloud Virtual IPs environment | localhost
+2024-07-11 13:00:10,016 p=28819 u=stack n=ansible | 2024-07-11 13:00:10.016285 | 005056b0-0bfb-54f5-8267-00000000000d |       TASK | Write deployed Virtual IPs environment file
+2024-07-11 13:00:10,964 p=28819 u=stack n=ansible | 2024-07-11 13:00:10.962918 | 005056b0-0bfb-54f5-8267-00000000000d |    CHANGED | Write deployed Virtual IPs environment file | localhost
+2024-07-11 13:00:10,984 p=28819 u=stack n=ansible | PLAY RECAP *********************************************************************
+2024-07-11 13:00:10,985 p=28819 u=stack n=ansible | localhost                  : ok=5    changed=2    unreachable=0    failed=0    skipped=4    rescued=0    ignored=0   
+2024-07-11 13:00:10,986 p=28819 u=stack n=ansible | 2024-07-11 13:00:10.985943 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Summary Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 13:00:10,986 p=28819 u=stack n=ansible | 2024-07-11 13:00:10.986469 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Total Tasks: 9          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 13:00:10,987 p=28819 u=stack n=ansible | 2024-07-11 13:00:10.987002 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Elapsed Time: 0:00:08.814805 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 13:00:10,987 p=28819 u=stack n=ansible | 2024-07-11 13:00:10.987490 |                                 UUID |       Info |       Host |   Task Name |   Run Time
+2024-07-11 13:00:10,988 p=28819 u=stack n=ansible | 2024-07-11 13:00:10.988079 | 005056b0-0bfb-54f5-8267-00000000000b |    SUMMARY |  localhost | Create/Update Overcloud Virtual IPs | 3.46s
+2024-07-11 13:00:10,988 p=28819 u=stack n=ansible | 2024-07-11 13:00:10.988580 | 005056b0-0bfb-54f5-8267-00000000000c |    SUMMARY |  localhost | Populate Overcloud Virtual IPs environment | 3.27s
+2024-07-11 13:00:10,989 p=28819 u=stack n=ansible | 2024-07-11 13:00:10.989085 | 005056b0-0bfb-54f5-8267-00000000000d |    SUMMARY |  localhost | Write deployed Virtual IPs environment file | 0.95s
+2024-07-11 13:00:10,989 p=28819 u=stack n=ansible | 2024-07-11 13:00:10.989563 | 005056b0-0bfb-54f5-8267-000000000007 |    SUMMARY |  localhost | Check if Virtual IPs deployment file already exist | 0.57s
+2024-07-11 13:00:10,990 p=28819 u=stack n=ansible | 2024-07-11 13:00:10.990120 | 005056b0-0bfb-54f5-8267-00000000000a |    SUMMARY |  localhost | Load Virtual IP data config from file | 0.10s
+2024-07-11 13:00:10,993 p=28819 u=stack n=ansible | 2024-07-11 13:00:10.990676 | 005056b0-0bfb-54f5-8267-000000000005 |    SUMMARY |  localhost | fail | 0.07s
+2024-07-11 13:00:10,994 p=28819 u=stack n=ansible | 2024-07-11 13:00:10.993522 | 005056b0-0bfb-54f5-8267-000000000006 |    SUMMARY |  localhost | fail | 0.07s
+2024-07-11 13:00:10,994 p=28819 u=stack n=ansible | 2024-07-11 13:00:10.994281 | 005056b0-0bfb-54f5-8267-000000000008 |    SUMMARY |  localhost | fail | 0.07s
+2024-07-11 13:00:10,995 p=28819 u=stack n=ansible | 2024-07-11 13:00:10.994867 | 005056b0-0bfb-54f5-8267-000000000004 |    SUMMARY |  localhost | fail | 0.07s
+2024-07-11 13:00:10,995 p=28819 u=stack n=ansible | 2024-07-11 13:00:10.995388 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Summary Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 14:13:22,153 p=115982 u=stack n=ansible | [DEPRECATION WARNING]: ANSIBLE_CALLBACK_WHITELIST option, normalizing names to 
+new standard, use ANSIBLE_CALLBACKS_ENABLED instead. This feature will be 
+removed from ansible-core in version 2.15. Deprecation warnings can be disabled
+ by setting deprecation_warnings=False in ansible.cfg.
+2024-07-11 14:13:22,154 p=115982 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_SUBSET option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-11 14:13:22,154 p=115982 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_TIMEOUT option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-11 14:13:22,402 p=115982 u=stack n=ansible | PLAY [Overcloud Get Horizon URL] ***********************************************
+2024-07-11 14:13:22,417 p=115982 u=stack n=ansible | 2024-07-11 14:13:22.416923 | 005056b0-0bfb-dbf3-1276-000000000004 |       TASK | Check for required inputs
+2024-07-11 14:13:22,513 p=115982 u=stack n=ansible | 2024-07-11 14:13:22.511836 | 005056b0-0bfb-dbf3-1276-000000000004 |    SKIPPED | Check for required inputs | localhost | item=stack_name
+2024-07-11 14:13:22,558 p=115982 u=stack n=ansible | 2024-07-11 14:13:22.557442 | 005056b0-0bfb-dbf3-1276-000000000004 |    SKIPPED | Check for required inputs | localhost | item=horizon_url_output_file
+2024-07-11 14:13:22,580 p=115982 u=stack n=ansible | 2024-07-11 14:13:22.579756 | 005056b0-0bfb-dbf3-1276-000000000006 |       TASK | Fetch stack data
+2024-07-11 14:13:26,965 p=115982 u=stack n=ansible | 2024-07-11 14:13:26.964632 | 005056b0-0bfb-dbf3-1276-000000000006 |         OK | Fetch stack data | localhost
+2024-07-11 14:13:26,973 p=115982 u=stack n=ansible | 2024-07-11 14:13:26.973676 | 005056b0-0bfb-dbf3-1276-000000000007 |       TASK | Create horizon url temp file
+2024-07-11 14:13:28,105 p=115982 u=stack n=ansible | 2024-07-11 14:13:28.104678 | 005056b0-0bfb-dbf3-1276-000000000007 |    CHANGED | Create horizon url temp file | localhost
+2024-07-11 14:13:28,127 p=115982 u=stack n=ansible | PLAY RECAP *********************************************************************
+2024-07-11 14:13:28,128 p=115982 u=stack n=ansible | localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   
+2024-07-11 14:13:28,129 p=115982 u=stack n=ansible | 2024-07-11 14:13:28.129160 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Summary Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 14:13:28,130 p=115982 u=stack n=ansible | 2024-07-11 14:13:28.129707 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Total Tasks: 3          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 14:13:28,130 p=115982 u=stack n=ansible | 2024-07-11 14:13:28.130204 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Elapsed Time: 0:00:05.789994 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 14:13:28,134 p=115982 u=stack n=ansible | 2024-07-11 14:13:28.134059 |                                 UUID |       Info |       Host |   Task Name |   Run Time
+2024-07-11 14:13:28,135 p=115982 u=stack n=ansible | 2024-07-11 14:13:28.134666 | 005056b0-0bfb-dbf3-1276-000000000006 |    SUMMARY |  localhost | Fetch stack data | 4.38s
+2024-07-11 14:13:28,135 p=115982 u=stack n=ansible | 2024-07-11 14:13:28.135156 | 005056b0-0bfb-dbf3-1276-000000000007 |    SUMMARY |  localhost | Create horizon url temp file | 1.13s
+2024-07-11 14:13:28,136 p=115982 u=stack n=ansible | 2024-07-11 14:13:28.135655 | 005056b0-0bfb-dbf3-1276-000000000004 |    SUMMARY |  localhost | Check for required inputs | 0.15s
+2024-07-11 14:13:28,136 p=115982 u=stack n=ansible | 2024-07-11 14:13:28.136128 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Summary Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 14:13:29,096 p=116028 u=stack n=ansible | [DEPRECATION WARNING]: ANSIBLE_CALLBACK_WHITELIST option, normalizing names to 
+new standard, use ANSIBLE_CALLBACKS_ENABLED instead. This feature will be 
+removed from ansible-core in version 2.15. Deprecation warnings can be disabled
+ by setting deprecation_warnings=False in ansible.cfg.
+2024-07-11 14:13:29,096 p=116028 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_SUBSET option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-11 14:13:29,097 p=116028 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_TIMEOUT option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-11 14:13:29,363 p=116028 u=stack n=ansible | PLAY [Download config] *********************************************************
+2024-07-11 14:13:29,386 p=116028 u=stack n=ansible | 2024-07-11 14:13:29.386071 | 005056b0-0bfb-123c-8e20-000000000004 |       TASK | Set output_dir
+2024-07-11 14:13:29,436 p=116028 u=stack n=ansible | 2024-07-11 14:13:29.435862 | 005056b0-0bfb-123c-8e20-000000000004 |    SKIPPED | Set output_dir | localhost
+2024-07-11 14:13:29,443 p=116028 u=stack n=ansible | 2024-07-11 14:13:29.443224 | 005056b0-0bfb-123c-8e20-000000000005 |       TASK | Set work_dir
+2024-07-11 14:13:29,524 p=116028 u=stack n=ansible | 2024-07-11 14:13:29.523424 | 005056b0-0bfb-123c-8e20-000000000005 |         OK | Set work_dir | localhost
+2024-07-11 14:13:29,532 p=116028 u=stack n=ansible | 2024-07-11 14:13:29.532499 | 005056b0-0bfb-123c-8e20-000000000006 |       TASK | Clean work_dir
+2024-07-11 14:13:29,573 p=116028 u=stack n=ansible | 2024-07-11 14:13:29.572942 | 005056b0-0bfb-123c-8e20-000000000006 |    SKIPPED | Clean work_dir | localhost
+2024-07-11 14:13:29,580 p=116028 u=stack n=ansible | 2024-07-11 14:13:29.580378 | 005056b0-0bfb-123c-8e20-000000000007 |       TASK | Create config dir if does not exist
+2024-07-11 14:13:30,146 p=116028 u=stack n=ansible | 2024-07-11 14:13:30.145411 | 005056b0-0bfb-123c-8e20-000000000007 |    CHANGED | Create config dir if does not exist | localhost
+2024-07-11 14:13:30,153 p=116028 u=stack n=ansible | 2024-07-11 14:13:30.153088 | 005056b0-0bfb-123c-8e20-000000000008 |       TASK | Download config
+2024-07-11 14:13:45,327 p=116028 u=stack n=ansible | 2024-07-11 14:13:45.326061 | 005056b0-0bfb-123c-8e20-000000000008 |    CHANGED | Download config | localhost
+2024-07-11 14:13:45,335 p=116028 u=stack n=ansible | 2024-07-11 14:13:45.334939 | 005056b0-0bfb-123c-8e20-000000000009 |       TASK | Generate ansible inventory
+2024-07-11 14:13:48,882 p=116028 u=stack n=ansible | 2024-07-11 14:13:48.881710 | 005056b0-0bfb-123c-8e20-000000000009 |      FATAL | Generate ansible inventory | localhost | error={"changed": false, "error": "No IPs found for Controller role on ctlplane network", "msg": "Error generating inventory for overcloud: No IPs found for Controller role on ctlplane network", "success": false}
+2024-07-11 14:13:48,884 p=116028 u=stack n=ansible | NO MORE HOSTS LEFT *************************************************************
+2024-07-11 14:13:48,887 p=116028 u=stack n=ansible | PLAY RECAP *********************************************************************
+2024-07-11 14:13:48,888 p=116028 u=stack n=ansible | localhost                  : ok=3    changed=2    unreachable=0    failed=1    skipped=2    rescued=0    ignored=0   
+2024-07-11 14:13:48,889 p=116028 u=stack n=ansible | 2024-07-11 14:13:48.888870 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Summary Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 14:13:48,889 p=116028 u=stack n=ansible | 2024-07-11 14:13:48.889385 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Total Tasks: 6          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 14:13:48,890 p=116028 u=stack n=ansible | 2024-07-11 14:13:48.890046 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Elapsed Time: 0:00:19.588303 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 14:13:48,891 p=116028 u=stack n=ansible | 2024-07-11 14:13:48.890690 |                                 UUID |       Info |       Host |   Task Name |   Run Time
+2024-07-11 14:13:48,892 p=116028 u=stack n=ansible | 2024-07-11 14:13:48.891579 | 005056b0-0bfb-123c-8e20-000000000008 |    SUMMARY |  localhost | Download config | 15.17s
+2024-07-11 14:13:48,892 p=116028 u=stack n=ansible | 2024-07-11 14:13:48.892163 | 005056b0-0bfb-123c-8e20-000000000009 |    SUMMARY |  localhost | Generate ansible inventory | 3.55s
+2024-07-11 14:13:48,893 p=116028 u=stack n=ansible | 2024-07-11 14:13:48.893167 | 005056b0-0bfb-123c-8e20-000000000007 |    SUMMARY |  localhost | Create config dir if does not exist | 0.57s
+2024-07-11 14:13:48,894 p=116028 u=stack n=ansible | 2024-07-11 14:13:48.893724 | 005056b0-0bfb-123c-8e20-000000000005 |    SUMMARY |  localhost | Set work_dir | 0.08s
+2024-07-11 14:13:48,894 p=116028 u=stack n=ansible | 2024-07-11 14:13:48.894314 | 005056b0-0bfb-123c-8e20-000000000004 |    SUMMARY |  localhost | Set output_dir | 0.05s
+2024-07-11 14:13:48,895 p=116028 u=stack n=ansible | 2024-07-11 14:13:48.894924 | 005056b0-0bfb-123c-8e20-000000000006 |    SUMMARY |  localhost | Clean work_dir | 0.04s
+2024-07-11 14:13:48,895 p=116028 u=stack n=ansible | 2024-07-11 14:13:48.895441 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Summary Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 14:13:48,896 p=116028 u=stack n=ansible | 2024-07-11 14:13:48.896102 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ State Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 14:13:48,897 p=116028 u=stack n=ansible | 2024-07-11 14:13:48.896654 | ~~~~~~~~~~~~~~~~~~ Number of nodes which did not deploy successfully: 1 ~~~~~~~~~~~~~~~~~
+2024-07-11 14:13:48,897 p=116028 u=stack n=ansible | 2024-07-11 14:13:48.897232 |  The following node(s) had failures: localhost
+2024-07-11 14:13:48,898 p=116028 u=stack n=ansible | 2024-07-11 14:13:48.897797 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 14:30:15,708 p=135561 u=stack n=ansible | [DEPRECATION WARNING]: ANSIBLE_CALLBACK_WHITELIST option, normalizing names to 
+new standard, use ANSIBLE_CALLBACKS_ENABLED instead. This feature will be 
+removed from ansible-core in version 2.15. Deprecation warnings can be disabled
+ by setting deprecation_warnings=False in ansible.cfg.
+2024-07-11 14:30:15,709 p=135561 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_SUBSET option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-11 14:30:15,709 p=135561 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_TIMEOUT option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-11 14:30:15,955 p=135561 u=stack n=ansible | PLAY [Overcloud Get Horizon URL] ***********************************************
+2024-07-11 14:30:15,970 p=135561 u=stack n=ansible | 2024-07-11 14:30:15.970071 | 005056b0-0bfb-1773-a688-000000000004 |       TASK | Check for required inputs
+2024-07-11 14:30:16,058 p=135561 u=stack n=ansible | 2024-07-11 14:30:16.057064 | 005056b0-0bfb-1773-a688-000000000004 |    SKIPPED | Check for required inputs | localhost | item=stack_name
+2024-07-11 14:30:16,097 p=135561 u=stack n=ansible | 2024-07-11 14:30:16.097220 | 005056b0-0bfb-1773-a688-000000000004 |    SKIPPED | Check for required inputs | localhost | item=horizon_url_output_file
+2024-07-11 14:30:16,119 p=135561 u=stack n=ansible | 2024-07-11 14:30:16.119026 | 005056b0-0bfb-1773-a688-000000000006 |       TASK | Fetch stack data
+2024-07-11 14:30:20,649 p=135561 u=stack n=ansible | 2024-07-11 14:30:20.648439 | 005056b0-0bfb-1773-a688-000000000006 |         OK | Fetch stack data | localhost
+2024-07-11 14:30:20,662 p=135561 u=stack n=ansible | 2024-07-11 14:30:20.661704 | 005056b0-0bfb-1773-a688-000000000007 |       TASK | Create horizon url temp file
+2024-07-11 14:30:21,898 p=135561 u=stack n=ansible | 2024-07-11 14:30:21.897272 | 005056b0-0bfb-1773-a688-000000000007 |         OK | Create horizon url temp file | localhost
+2024-07-11 14:30:21,922 p=135561 u=stack n=ansible | PLAY RECAP *********************************************************************
+2024-07-11 14:30:21,922 p=135561 u=stack n=ansible | localhost                  : ok=2    changed=0    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   
+2024-07-11 14:30:21,924 p=135561 u=stack n=ansible | 2024-07-11 14:30:21.923653 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Summary Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 14:30:21,924 p=135561 u=stack n=ansible | 2024-07-11 14:30:21.924141 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Total Tasks: 3          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 14:30:21,925 p=135561 u=stack n=ansible | 2024-07-11 14:30:21.924682 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Elapsed Time: 0:00:06.029833 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 14:30:21,925 p=135561 u=stack n=ansible | 2024-07-11 14:30:21.925164 |                                 UUID |       Info |       Host |   Task Name |   Run Time
+2024-07-11 14:30:21,926 p=135561 u=stack n=ansible | 2024-07-11 14:30:21.925664 | 005056b0-0bfb-1773-a688-000000000006 |    SUMMARY |  localhost | Fetch stack data | 4.53s
+2024-07-11 14:30:21,926 p=135561 u=stack n=ansible | 2024-07-11 14:30:21.926177 | 005056b0-0bfb-1773-a688-000000000007 |    SUMMARY |  localhost | Create horizon url temp file | 1.24s
+2024-07-11 14:30:21,927 p=135561 u=stack n=ansible | 2024-07-11 14:30:21.926670 | 005056b0-0bfb-1773-a688-000000000004 |    SUMMARY |  localhost | Check for required inputs | 0.13s
+2024-07-11 14:30:21,927 p=135561 u=stack n=ansible | 2024-07-11 14:30:21.927135 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Summary Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 14:30:22,993 p=136028 u=stack n=ansible | [DEPRECATION WARNING]: ANSIBLE_CALLBACK_WHITELIST option, normalizing names to 
+new standard, use ANSIBLE_CALLBACKS_ENABLED instead. This feature will be 
+removed from ansible-core in version 2.15. Deprecation warnings can be disabled
+ by setting deprecation_warnings=False in ansible.cfg.
+2024-07-11 14:30:22,993 p=136028 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_SUBSET option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-11 14:30:22,993 p=136028 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_TIMEOUT option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-11 14:30:23,265 p=136028 u=stack n=ansible | PLAY [Download config] *********************************************************
+2024-07-11 14:30:23,289 p=136028 u=stack n=ansible | 2024-07-11 14:30:23.288486 | 005056b0-0bfb-6668-3f0b-000000000004 |       TASK | Set output_dir
+2024-07-11 14:30:23,329 p=136028 u=stack n=ansible | 2024-07-11 14:30:23.328587 | 005056b0-0bfb-6668-3f0b-000000000004 |    SKIPPED | Set output_dir | localhost
+2024-07-11 14:30:23,337 p=136028 u=stack n=ansible | 2024-07-11 14:30:23.336998 | 005056b0-0bfb-6668-3f0b-000000000005 |       TASK | Set work_dir
+2024-07-11 14:30:23,408 p=136028 u=stack n=ansible | 2024-07-11 14:30:23.407845 | 005056b0-0bfb-6668-3f0b-000000000005 |         OK | Set work_dir | localhost
+2024-07-11 14:30:23,417 p=136028 u=stack n=ansible | 2024-07-11 14:30:23.416846 | 005056b0-0bfb-6668-3f0b-000000000006 |       TASK | Clean work_dir
+2024-07-11 14:30:23,448 p=136028 u=stack n=ansible | 2024-07-11 14:30:23.447267 | 005056b0-0bfb-6668-3f0b-000000000006 |    SKIPPED | Clean work_dir | localhost
+2024-07-11 14:30:23,458 p=136028 u=stack n=ansible | 2024-07-11 14:30:23.457175 | 005056b0-0bfb-6668-3f0b-000000000007 |       TASK | Create config dir if does not exist
+2024-07-11 14:30:24,037 p=136028 u=stack n=ansible | 2024-07-11 14:30:24.036303 | 005056b0-0bfb-6668-3f0b-000000000007 |         OK | Create config dir if does not exist | localhost
+2024-07-11 14:30:24,047 p=136028 u=stack n=ansible | 2024-07-11 14:30:24.046595 | 005056b0-0bfb-6668-3f0b-000000000008 |       TASK | Download config
+2024-07-11 14:30:38,775 p=136028 u=stack n=ansible | 2024-07-11 14:30:38.774439 | 005056b0-0bfb-6668-3f0b-000000000008 |    CHANGED | Download config | localhost
+2024-07-11 14:30:38,783 p=136028 u=stack n=ansible | 2024-07-11 14:30:38.783354 | 005056b0-0bfb-6668-3f0b-000000000009 |       TASK | Generate ansible inventory
+2024-07-11 14:30:42,232 p=136028 u=stack n=ansible | 2024-07-11 14:30:42.231646 | 005056b0-0bfb-6668-3f0b-000000000009 |      FATAL | Generate ansible inventory | localhost | error={"changed": false, "error": "No IPs found for Controller role on ctlplane network", "msg": "Error generating inventory for overcloud: No IPs found for Controller role on ctlplane network", "success": false}
+2024-07-11 14:30:42,234 p=136028 u=stack n=ansible | NO MORE HOSTS LEFT *************************************************************
+2024-07-11 14:30:42,236 p=136028 u=stack n=ansible | PLAY RECAP *********************************************************************
+2024-07-11 14:30:42,237 p=136028 u=stack n=ansible | localhost                  : ok=3    changed=1    unreachable=0    failed=1    skipped=2    rescued=0    ignored=0   
+2024-07-11 14:30:42,238 p=136028 u=stack n=ansible | 2024-07-11 14:30:42.238042 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Summary Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 14:30:42,239 p=136028 u=stack n=ansible | 2024-07-11 14:30:42.238607 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Total Tasks: 6          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 14:30:42,239 p=136028 u=stack n=ansible | 2024-07-11 14:30:42.239174 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Elapsed Time: 0:00:19.037470 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 14:30:42,240 p=136028 u=stack n=ansible | 2024-07-11 14:30:42.239682 |                                 UUID |       Info |       Host |   Task Name |   Run Time
+2024-07-11 14:30:42,240 p=136028 u=stack n=ansible | 2024-07-11 14:30:42.240393 | 005056b0-0bfb-6668-3f0b-000000000008 |    SUMMARY |  localhost | Download config | 14.73s
+2024-07-11 14:30:42,241 p=136028 u=stack n=ansible | 2024-07-11 14:30:42.240928 | 005056b0-0bfb-6668-3f0b-000000000009 |    SUMMARY |  localhost | Generate ansible inventory | 3.45s
+2024-07-11 14:30:42,241 p=136028 u=stack n=ansible | 2024-07-11 14:30:42.241438 | 005056b0-0bfb-6668-3f0b-000000000007 |    SUMMARY |  localhost | Create config dir if does not exist | 0.58s
+2024-07-11 14:30:42,242 p=136028 u=stack n=ansible | 2024-07-11 14:30:42.242009 | 005056b0-0bfb-6668-3f0b-000000000005 |    SUMMARY |  localhost | Set work_dir | 0.07s
+2024-07-11 14:30:42,242 p=136028 u=stack n=ansible | 2024-07-11 14:30:42.242486 | 005056b0-0bfb-6668-3f0b-000000000004 |    SUMMARY |  localhost | Set output_dir | 0.04s
+2024-07-11 14:30:42,243 p=136028 u=stack n=ansible | 2024-07-11 14:30:42.243073 | 005056b0-0bfb-6668-3f0b-000000000006 |    SUMMARY |  localhost | Clean work_dir | 0.03s
+2024-07-11 14:30:42,243 p=136028 u=stack n=ansible | 2024-07-11 14:30:42.243537 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Summary Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 14:30:42,244 p=136028 u=stack n=ansible | 2024-07-11 14:30:42.244039 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ State Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 14:30:42,245 p=136028 u=stack n=ansible | 2024-07-11 14:30:42.244688 | ~~~~~~~~~~~~~~~~~~ Number of nodes which did not deploy successfully: 1 ~~~~~~~~~~~~~~~~~
+2024-07-11 14:30:42,245 p=136028 u=stack n=ansible | 2024-07-11 14:30:42.245146 |  The following node(s) had failures: localhost
+2024-07-11 14:30:42,245 p=136028 u=stack n=ansible | 2024-07-11 14:30:42.245599 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 14:57:59,973 p=168180 u=stack n=ansible | [DEPRECATION WARNING]: ANSIBLE_CALLBACK_WHITELIST option, normalizing names to 
+new standard, use ANSIBLE_CALLBACKS_ENABLED instead. This feature will be 
+removed from ansible-core in version 2.15. Deprecation warnings can be disabled
+ by setting deprecation_warnings=False in ansible.cfg.
+2024-07-11 14:57:59,974 p=168180 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_SUBSET option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-11 14:57:59,974 p=168180 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_TIMEOUT option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-11 14:58:00,236 p=168180 u=stack n=ansible | PLAY [Overcloud Get Horizon URL] ***********************************************
+2024-07-11 14:58:00,251 p=168180 u=stack n=ansible | 2024-07-11 14:58:00.250919 | 005056b0-0bfb-902e-4862-000000000004 |       TASK | Check for required inputs
+2024-07-11 14:58:00,347 p=168180 u=stack n=ansible | 2024-07-11 14:58:00.345562 | 005056b0-0bfb-902e-4862-000000000004 |    SKIPPED | Check for required inputs | localhost | item=stack_name
+2024-07-11 14:58:00,391 p=168180 u=stack n=ansible | 2024-07-11 14:58:00.390321 | 005056b0-0bfb-902e-4862-000000000004 |    SKIPPED | Check for required inputs | localhost | item=horizon_url_output_file
+2024-07-11 14:58:00,419 p=168180 u=stack n=ansible | 2024-07-11 14:58:00.418692 | 005056b0-0bfb-902e-4862-000000000006 |       TASK | Fetch stack data
+2024-07-11 14:58:04,660 p=168180 u=stack n=ansible | 2024-07-11 14:58:04.659678 | 005056b0-0bfb-902e-4862-000000000006 |         OK | Fetch stack data | localhost
+2024-07-11 14:58:04,672 p=168180 u=stack n=ansible | 2024-07-11 14:58:04.672347 | 005056b0-0bfb-902e-4862-000000000007 |       TASK | Create horizon url temp file
+2024-07-11 14:58:05,863 p=168180 u=stack n=ansible | 2024-07-11 14:58:05.862170 | 005056b0-0bfb-902e-4862-000000000007 |         OK | Create horizon url temp file | localhost
+2024-07-11 14:58:05,887 p=168180 u=stack n=ansible | PLAY RECAP *********************************************************************
+2024-07-11 14:58:05,887 p=168180 u=stack n=ansible | localhost                  : ok=2    changed=0    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   
+2024-07-11 14:58:05,888 p=168180 u=stack n=ansible | 2024-07-11 14:58:05.888482 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Summary Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 14:58:05,889 p=168180 u=stack n=ansible | 2024-07-11 14:58:05.889133 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Total Tasks: 3          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 14:58:05,890 p=168180 u=stack n=ansible | 2024-07-11 14:58:05.889658 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Elapsed Time: 0:00:05.715072 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 14:58:05,890 p=168180 u=stack n=ansible | 2024-07-11 14:58:05.890146 |                                 UUID |       Info |       Host |   Task Name |   Run Time
+2024-07-11 14:58:05,890 p=168180 u=stack n=ansible | 2024-07-11 14:58:05.890609 | 005056b0-0bfb-902e-4862-000000000006 |    SUMMARY |  localhost | Fetch stack data | 4.24s
+2024-07-11 14:58:05,891 p=168180 u=stack n=ansible | 2024-07-11 14:58:05.891097 | 005056b0-0bfb-902e-4862-000000000007 |    SUMMARY |  localhost | Create horizon url temp file | 1.19s
+2024-07-11 14:58:05,891 p=168180 u=stack n=ansible | 2024-07-11 14:58:05.891558 | 005056b0-0bfb-902e-4862-000000000004 |    SUMMARY |  localhost | Check for required inputs | 0.15s
+2024-07-11 14:58:05,892 p=168180 u=stack n=ansible | 2024-07-11 14:58:05.892099 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Summary Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 14:58:06,868 p=168224 u=stack n=ansible | [DEPRECATION WARNING]: ANSIBLE_CALLBACK_WHITELIST option, normalizing names to 
+new standard, use ANSIBLE_CALLBACKS_ENABLED instead. This feature will be 
+removed from ansible-core in version 2.15. Deprecation warnings can be disabled
+ by setting deprecation_warnings=False in ansible.cfg.
+2024-07-11 14:58:06,868 p=168224 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_SUBSET option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-11 14:58:06,868 p=168224 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_TIMEOUT option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-11 14:58:07,133 p=168224 u=stack n=ansible | PLAY [Download config] *********************************************************
+2024-07-11 14:58:07,157 p=168224 u=stack n=ansible | 2024-07-11 14:58:07.156532 | 005056b0-0bfb-4095-80df-000000000004 |       TASK | Set output_dir
+2024-07-11 14:58:07,200 p=168224 u=stack n=ansible | 2024-07-11 14:58:07.199395 | 005056b0-0bfb-4095-80df-000000000004 |    SKIPPED | Set output_dir | localhost
+2024-07-11 14:58:07,207 p=168224 u=stack n=ansible | 2024-07-11 14:58:07.207339 | 005056b0-0bfb-4095-80df-000000000005 |       TASK | Set work_dir
+2024-07-11 14:58:07,278 p=168224 u=stack n=ansible | 2024-07-11 14:58:07.277021 | 005056b0-0bfb-4095-80df-000000000005 |         OK | Set work_dir | localhost
+2024-07-11 14:58:07,286 p=168224 u=stack n=ansible | 2024-07-11 14:58:07.285928 | 005056b0-0bfb-4095-80df-000000000006 |       TASK | Clean work_dir
+2024-07-11 14:58:07,325 p=168224 u=stack n=ansible | 2024-07-11 14:58:07.324302 | 005056b0-0bfb-4095-80df-000000000006 |    SKIPPED | Clean work_dir | localhost
+2024-07-11 14:58:07,333 p=168224 u=stack n=ansible | 2024-07-11 14:58:07.332565 | 005056b0-0bfb-4095-80df-000000000007 |       TASK | Create config dir if does not exist
+2024-07-11 14:58:07,906 p=168224 u=stack n=ansible | 2024-07-11 14:58:07.905033 | 005056b0-0bfb-4095-80df-000000000007 |         OK | Create config dir if does not exist | localhost
+2024-07-11 14:58:07,914 p=168224 u=stack n=ansible | 2024-07-11 14:58:07.914023 | 005056b0-0bfb-4095-80df-000000000008 |       TASK | Download config
+2024-07-11 14:58:23,059 p=168224 u=stack n=ansible | 2024-07-11 14:58:23.058611 | 005056b0-0bfb-4095-80df-000000000008 |    CHANGED | Download config | localhost
+2024-07-11 14:58:23,067 p=168224 u=stack n=ansible | 2024-07-11 14:58:23.067023 | 005056b0-0bfb-4095-80df-000000000009 |       TASK | Generate ansible inventory
+2024-07-11 14:58:26,485 p=168224 u=stack n=ansible | 2024-07-11 14:58:26.484866 | 005056b0-0bfb-4095-80df-000000000009 |      FATAL | Generate ansible inventory | localhost | error={"changed": false, "error": "No IPs found for Controller role on ctlplane network", "msg": "Error generating inventory for overcloud: No IPs found for Controller role on ctlplane network", "success": false}
+2024-07-11 14:58:26,488 p=168224 u=stack n=ansible | NO MORE HOSTS LEFT *************************************************************
+2024-07-11 14:58:26,489 p=168224 u=stack n=ansible | PLAY RECAP *********************************************************************
+2024-07-11 14:58:26,490 p=168224 u=stack n=ansible | localhost                  : ok=3    changed=1    unreachable=0    failed=1    skipped=2    rescued=0    ignored=0   
+2024-07-11 14:58:26,491 p=168224 u=stack n=ansible | 2024-07-11 14:58:26.491076 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Summary Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 14:58:26,492 p=168224 u=stack n=ansible | 2024-07-11 14:58:26.491725 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Total Tasks: 6          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 14:58:26,492 p=168224 u=stack n=ansible | 2024-07-11 14:58:26.492314 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Elapsed Time: 0:00:19.419625 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 14:58:26,493 p=168224 u=stack n=ansible | 2024-07-11 14:58:26.492920 |                                 UUID |       Info |       Host |   Task Name |   Run Time
+2024-07-11 14:58:26,493 p=168224 u=stack n=ansible | 2024-07-11 14:58:26.493494 | 005056b0-0bfb-4095-80df-000000000008 |    SUMMARY |  localhost | Download config | 15.14s
+2024-07-11 14:58:26,494 p=168224 u=stack n=ansible | 2024-07-11 14:58:26.494113 | 005056b0-0bfb-4095-80df-000000000009 |    SUMMARY |  localhost | Generate ansible inventory | 3.42s
+2024-07-11 14:58:26,495 p=168224 u=stack n=ansible | 2024-07-11 14:58:26.495456 | 005056b0-0bfb-4095-80df-000000000007 |    SUMMARY |  localhost | Create config dir if does not exist | 0.57s
+2024-07-11 14:58:26,496 p=168224 u=stack n=ansible | 2024-07-11 14:58:26.496095 | 005056b0-0bfb-4095-80df-000000000005 |    SUMMARY |  localhost | Set work_dir | 0.07s
+2024-07-11 14:58:26,497 p=168224 u=stack n=ansible | 2024-07-11 14:58:26.496688 | 005056b0-0bfb-4095-80df-000000000004 |    SUMMARY |  localhost | Set output_dir | 0.04s
+2024-07-11 14:58:26,497 p=168224 u=stack n=ansible | 2024-07-11 14:58:26.497263 | 005056b0-0bfb-4095-80df-000000000006 |    SUMMARY |  localhost | Clean work_dir | 0.04s
+2024-07-11 14:58:26,498 p=168224 u=stack n=ansible | 2024-07-11 14:58:26.497802 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Summary Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 14:58:26,498 p=168224 u=stack n=ansible | 2024-07-11 14:58:26.498356 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ State Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 14:58:26,499 p=168224 u=stack n=ansible | 2024-07-11 14:58:26.498890 | ~~~~~~~~~~~~~~~~~~ Number of nodes which did not deploy successfully: 1 ~~~~~~~~~~~~~~~~~
+2024-07-11 14:58:26,499 p=168224 u=stack n=ansible | 2024-07-11 14:58:26.499393 |  The following node(s) had failures: localhost
+2024-07-11 14:58:26,500 p=168224 u=stack n=ansible | 2024-07-11 14:58:26.499924 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 14:59:48,537 p=170854 u=stack n=ansible | [DEPRECATION WARNING]: ANSIBLE_CALLBACK_WHITELIST option, normalizing names to new standard, use ANSIBLE_CALLBACKS_ENABLED instead. This feature will be 
+removed from ansible-core in version 2.15. Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2024-07-11 14:59:48,538 p=170854 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_SUBSET option, the module_defaults keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2024-07-11 14:59:48,538 p=170854 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_TIMEOUT option, the module_defaults keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2024-07-11 14:59:48,822 p=170854 u=stack n=ansible | PLAY [Download config] ***********************************************************************************************************************************
+2024-07-11 14:59:48,847 p=170854 u=stack n=ansible | 2024-07-11 14:59:48.847716 | 005056b0-0bfb-841a-f424-000000000004 |       TASK | Set output_dir
+2024-07-11 14:59:48,896 p=170854 u=stack n=ansible | 2024-07-11 14:59:48.896113 | 005056b0-0bfb-841a-f424-000000000004 |    SKIPPED | Set output_dir | localhost
+2024-07-11 14:59:48,902 p=170854 u=stack n=ansible | 2024-07-11 14:59:48.902754 | 005056b0-0bfb-841a-f424-000000000005 |       TASK | Set work_dir
+2024-07-11 14:59:48,990 p=170854 u=stack n=ansible | 2024-07-11 14:59:48.990562 | 005056b0-0bfb-841a-f424-000000000005 |         OK | Set work_dir | localhost
+2024-07-11 14:59:48,997 p=170854 u=stack n=ansible | 2024-07-11 14:59:48.997564 | 005056b0-0bfb-841a-f424-000000000006 |       TASK | Clean work_dir
+2024-07-11 14:59:49,050 p=170854 u=stack n=ansible | 2024-07-11 14:59:49.050060 | 005056b0-0bfb-841a-f424-000000000006 |    SKIPPED | Clean work_dir | localhost
+2024-07-11 14:59:49,055 p=170854 u=stack n=ansible | 2024-07-11 14:59:49.055784 | 005056b0-0bfb-841a-f424-000000000007 |       TASK | Create config dir if does not exist
+2024-07-11 14:59:49,637 p=170854 u=stack n=ansible | 2024-07-11 14:59:49.637560 | 005056b0-0bfb-841a-f424-000000000007 |         OK | Create config dir if does not exist | localhost
+2024-07-11 14:59:49,645 p=170854 u=stack n=ansible | 2024-07-11 14:59:49.645521 | 005056b0-0bfb-841a-f424-000000000008 |       TASK | Download config
+2024-07-11 14:59:51,591 p=170854 u=stack n=ansible | 2024-07-11 14:59:51.590796 | 005056b0-0bfb-841a-f424-000000000008 |      FATAL | Download config | localhost | error={"changed": false, "error": "Error communicating with http://127.0.0.1:8006/v1/admin HTTPConnectionPool(host='127.0.0.1', port=8006): Max retries exceeded with url: /v1/admin/stacks/overcloud (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff49d56d400>: Failed to establish a new connection: [Errno 111] Connection refused'))", "msg": "Error downloading config for overcloud: Error communicating with http://127.0.0.1:8006/v1/admin HTTPConnectionPool(host='127.0.0.1', port=8006): Max retries exceeded with url: /v1/admin/stacks/overcloud (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff49d56d400>: Failed to establish a new connection: [Errno 111] Connection refused'))", "success": false}
+2024-07-11 14:59:51,592 p=170854 u=stack n=ansible | NO MORE HOSTS LEFT ***************************************************************************************************************************************
+2024-07-11 14:59:51,593 p=170854 u=stack n=ansible | PLAY RECAP ***********************************************************************************************************************************************
+2024-07-11 14:59:51,594 p=170854 u=stack n=ansible | localhost                  : ok=2    changed=0    unreachable=0    failed=1    skipped=2    rescued=0    ignored=0   
+2024-07-11 14:59:51,594 p=170854 u=stack n=ansible | 2024-07-11 14:59:51.594388 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Summary Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 14:59:51,594 p=170854 u=stack n=ansible | 2024-07-11 14:59:51.594522 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Total Tasks: 5          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 14:59:51,594 p=170854 u=stack n=ansible | 2024-07-11 14:59:51.594678 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Elapsed Time: 0:00:02.843568 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 14:59:51,594 p=170854 u=stack n=ansible | 2024-07-11 14:59:51.594799 |                                 UUID |       Info |       Host |   Task Name |   Run Time
+2024-07-11 14:59:51,594 p=170854 u=stack n=ansible | 2024-07-11 14:59:51.594917 | 005056b0-0bfb-841a-f424-000000000008 |    SUMMARY |  localhost | Download config | 1.94s
+2024-07-11 14:59:51,595 p=170854 u=stack n=ansible | 2024-07-11 14:59:51.595033 | 005056b0-0bfb-841a-f424-000000000007 |    SUMMARY |  localhost | Create config dir if does not exist | 0.58s
+2024-07-11 14:59:51,595 p=170854 u=stack n=ansible | 2024-07-11 14:59:51.595153 | 005056b0-0bfb-841a-f424-000000000005 |    SUMMARY |  localhost | Set work_dir | 0.09s
+2024-07-11 14:59:51,595 p=170854 u=stack n=ansible | 2024-07-11 14:59:51.595272 | 005056b0-0bfb-841a-f424-000000000006 |    SUMMARY |  localhost | Clean work_dir | 0.05s
+2024-07-11 14:59:51,595 p=170854 u=stack n=ansible | 2024-07-11 14:59:51.595385 | 005056b0-0bfb-841a-f424-000000000004 |    SUMMARY |  localhost | Set output_dir | 0.05s
+2024-07-11 14:59:51,595 p=170854 u=stack n=ansible | 2024-07-11 14:59:51.595492 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Summary Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 14:59:51,595 p=170854 u=stack n=ansible | 2024-07-11 14:59:51.595651 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ State Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 14:59:51,595 p=170854 u=stack n=ansible | 2024-07-11 14:59:51.595808 | ~~~~~~~~~~~~~~~~~~ Number of nodes which did not deploy successfully: 1 ~~~~~~~~~~~~~~~~~
+2024-07-11 14:59:51,595 p=170854 u=stack n=ansible | 2024-07-11 14:59:51.595922 |  The following node(s) had failures: localhost
+2024-07-11 14:59:51,596 p=170854 u=stack n=ansible | 2024-07-11 14:59:51.596041 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 15:14:41,231 p=188447 u=stack n=ansible | [DEPRECATION WARNING]: ANSIBLE_CALLBACK_WHITELIST option, normalizing names to 
+new standard, use ANSIBLE_CALLBACKS_ENABLED instead. This feature will be 
+removed from ansible-core in version 2.15. Deprecation warnings can be disabled
+ by setting deprecation_warnings=False in ansible.cfg.
+2024-07-11 15:14:41,232 p=188447 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_SUBSET option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-11 15:14:41,232 p=188447 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_TIMEOUT option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-11 15:14:41,491 p=188447 u=stack n=ansible | PLAY [Overcloud Get Horizon URL] ***********************************************
+2024-07-11 15:14:41,507 p=188447 u=stack n=ansible | 2024-07-11 15:14:41.507313 | 005056b0-0bfb-0d08-2b60-000000000004 |       TASK | Check for required inputs
+2024-07-11 15:14:41,598 p=188447 u=stack n=ansible | 2024-07-11 15:14:41.597180 | 005056b0-0bfb-0d08-2b60-000000000004 |    SKIPPED | Check for required inputs | localhost | item=stack_name
+2024-07-11 15:14:41,637 p=188447 u=stack n=ansible | 2024-07-11 15:14:41.637188 | 005056b0-0bfb-0d08-2b60-000000000004 |    SKIPPED | Check for required inputs | localhost | item=horizon_url_output_file
+2024-07-11 15:14:41,663 p=188447 u=stack n=ansible | 2024-07-11 15:14:41.663186 | 005056b0-0bfb-0d08-2b60-000000000006 |       TASK | Fetch stack data
+2024-07-11 15:14:45,831 p=188447 u=stack n=ansible | 2024-07-11 15:14:45.830753 | 005056b0-0bfb-0d08-2b60-000000000006 |         OK | Fetch stack data | localhost
+2024-07-11 15:14:45,843 p=188447 u=stack n=ansible | 2024-07-11 15:14:45.843009 | 005056b0-0bfb-0d08-2b60-000000000007 |       TASK | Create horizon url temp file
+2024-07-11 15:14:46,929 p=188447 u=stack n=ansible | 2024-07-11 15:14:46.928486 | 005056b0-0bfb-0d08-2b60-000000000007 |         OK | Create horizon url temp file | localhost
+2024-07-11 15:14:46,952 p=188447 u=stack n=ansible | PLAY RECAP *********************************************************************
+2024-07-11 15:14:46,953 p=188447 u=stack n=ansible | localhost                  : ok=2    changed=0    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   
+2024-07-11 15:14:46,954 p=188447 u=stack n=ansible | 2024-07-11 15:14:46.953655 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Summary Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 15:14:46,954 p=188447 u=stack n=ansible | 2024-07-11 15:14:46.954198 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Total Tasks: 3          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 15:14:46,955 p=188447 u=stack n=ansible | 2024-07-11 15:14:46.954727 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Elapsed Time: 0:00:05.526170 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 15:14:46,955 p=188447 u=stack n=ansible | 2024-07-11 15:14:46.955246 |                                 UUID |       Info |       Host |   Task Name |   Run Time
+2024-07-11 15:14:46,956 p=188447 u=stack n=ansible | 2024-07-11 15:14:46.955820 | 005056b0-0bfb-0d08-2b60-000000000006 |    SUMMARY |  localhost | Fetch stack data | 4.17s
+2024-07-11 15:14:46,956 p=188447 u=stack n=ansible | 2024-07-11 15:14:46.956342 | 005056b0-0bfb-0d08-2b60-000000000007 |    SUMMARY |  localhost | Create horizon url temp file | 1.09s
+2024-07-11 15:14:46,957 p=188447 u=stack n=ansible | 2024-07-11 15:14:46.956928 | 005056b0-0bfb-0d08-2b60-000000000004 |    SUMMARY |  localhost | Check for required inputs | 0.13s
+2024-07-11 15:14:46,957 p=188447 u=stack n=ansible | 2024-07-11 15:14:46.957466 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Summary Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 15:14:47,920 p=189001 u=stack n=ansible | [DEPRECATION WARNING]: ANSIBLE_CALLBACK_WHITELIST option, normalizing names to 
+new standard, use ANSIBLE_CALLBACKS_ENABLED instead. This feature will be 
+removed from ansible-core in version 2.15. Deprecation warnings can be disabled
+ by setting deprecation_warnings=False in ansible.cfg.
+2024-07-11 15:14:47,920 p=189001 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_SUBSET option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-11 15:14:47,921 p=189001 u=stack n=ansible | [DEPRECATION WARNING]: DEFAULT_GATHER_TIMEOUT option, the module_defaults 
+keyword is a more generic version and can apply to all calls to the 
+M(ansible.builtin.gather_facts) or M(ansible.builtin.setup) actions, use 
+module_defaults instead. This feature will be removed from ansible-core in 
+version 2.18. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2024-07-11 15:14:48,183 p=189001 u=stack n=ansible | PLAY [Download config] *********************************************************
+2024-07-11 15:14:48,206 p=189001 u=stack n=ansible | 2024-07-11 15:14:48.206499 | 005056b0-0bfb-b310-82a8-000000000004 |       TASK | Set output_dir
+2024-07-11 15:14:48,256 p=189001 u=stack n=ansible | 2024-07-11 15:14:48.255031 | 005056b0-0bfb-b310-82a8-000000000004 |    SKIPPED | Set output_dir | localhost
+2024-07-11 15:14:48,263 p=189001 u=stack n=ansible | 2024-07-11 15:14:48.263229 | 005056b0-0bfb-b310-82a8-000000000005 |       TASK | Set work_dir
+2024-07-11 15:14:48,332 p=189001 u=stack n=ansible | 2024-07-11 15:14:48.331601 | 005056b0-0bfb-b310-82a8-000000000005 |         OK | Set work_dir | localhost
+2024-07-11 15:14:48,340 p=189001 u=stack n=ansible | 2024-07-11 15:14:48.339910 | 005056b0-0bfb-b310-82a8-000000000006 |       TASK | Clean work_dir
+2024-07-11 15:14:48,375 p=189001 u=stack n=ansible | 2024-07-11 15:14:48.374507 | 005056b0-0bfb-b310-82a8-000000000006 |    SKIPPED | Clean work_dir | localhost
+2024-07-11 15:14:48,383 p=189001 u=stack n=ansible | 2024-07-11 15:14:48.382868 | 005056b0-0bfb-b310-82a8-000000000007 |       TASK | Create config dir if does not exist
+2024-07-11 15:14:48,976 p=189001 u=stack n=ansible | 2024-07-11 15:14:48.974838 | 005056b0-0bfb-b310-82a8-000000000007 |         OK | Create config dir if does not exist | localhost
+2024-07-11 15:14:48,984 p=189001 u=stack n=ansible | 2024-07-11 15:14:48.984240 | 005056b0-0bfb-b310-82a8-000000000008 |       TASK | Download config
+2024-07-11 15:15:03,971 p=189001 u=stack n=ansible | 2024-07-11 15:15:03.971018 | 005056b0-0bfb-b310-82a8-000000000008 |    CHANGED | Download config | localhost
+2024-07-11 15:15:03,978 p=189001 u=stack n=ansible | 2024-07-11 15:15:03.978429 | 005056b0-0bfb-b310-82a8-000000000009 |       TASK | Generate ansible inventory
+2024-07-11 15:15:07,386 p=189001 u=stack n=ansible | 2024-07-11 15:15:07.385857 | 005056b0-0bfb-b310-82a8-000000000009 |      FATAL | Generate ansible inventory | localhost | error={"changed": false, "error": "No IPs found for Controller role on ctlplane network", "msg": "Error generating inventory for overcloud: No IPs found for Controller role on ctlplane network", "success": false}
+2024-07-11 15:15:07,388 p=189001 u=stack n=ansible | NO MORE HOSTS LEFT *************************************************************
+2024-07-11 15:15:07,390 p=189001 u=stack n=ansible | PLAY RECAP *********************************************************************
+2024-07-11 15:15:07,391 p=189001 u=stack n=ansible | localhost                  : ok=3    changed=1    unreachable=0    failed=1    skipped=2    rescued=0    ignored=0   
+2024-07-11 15:15:07,392 p=189001 u=stack n=ansible | 2024-07-11 15:15:07.392370 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Summary Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 15:15:07,393 p=189001 u=stack n=ansible | 2024-07-11 15:15:07.392997 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Total Tasks: 6          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 15:15:07,394 p=189001 u=stack n=ansible | 2024-07-11 15:15:07.393574 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Elapsed Time: 0:00:19.271075 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 15:15:07,394 p=189001 u=stack n=ansible | 2024-07-11 15:15:07.394189 |                                 UUID |       Info |       Host |   Task Name |   Run Time
+2024-07-11 15:15:07,395 p=189001 u=stack n=ansible | 2024-07-11 15:15:07.394783 | 005056b0-0bfb-b310-82a8-000000000008 |    SUMMARY |  localhost | Download config | 14.99s
+2024-07-11 15:15:07,396 p=189001 u=stack n=ansible | 2024-07-11 15:15:07.395807 | 005056b0-0bfb-b310-82a8-000000000009 |    SUMMARY |  localhost | Generate ansible inventory | 3.41s
+2024-07-11 15:15:07,396 p=189001 u=stack n=ansible | 2024-07-11 15:15:07.396319 | 005056b0-0bfb-b310-82a8-000000000007 |    SUMMARY |  localhost | Create config dir if does not exist | 0.59s
+2024-07-11 15:15:07,397 p=189001 u=stack n=ansible | 2024-07-11 15:15:07.396896 | 005056b0-0bfb-b310-82a8-000000000005 |    SUMMARY |  localhost | Set work_dir | 0.07s
+2024-07-11 15:15:07,397 p=189001 u=stack n=ansible | 2024-07-11 15:15:07.397405 | 005056b0-0bfb-b310-82a8-000000000004 |    SUMMARY |  localhost | Set output_dir | 0.05s
+2024-07-11 15:15:07,398 p=189001 u=stack n=ansible | 2024-07-11 15:15:07.397942 | 005056b0-0bfb-b310-82a8-000000000006 |    SUMMARY |  localhost | Clean work_dir | 0.04s
+2024-07-11 15:15:07,398 p=189001 u=stack n=ansible | 2024-07-11 15:15:07.398579 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Summary Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 15:15:07,399 p=189001 u=stack n=ansible | 2024-07-11 15:15:07.399124 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ State Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-07-11 15:15:07,400 p=189001 u=stack n=ansible | 2024-07-11 15:15:07.399639 | ~~~~~~~~~~~~~~~~~~ Number of nodes which did not deploy successfully: 1 ~~~~~~~~~~~~~~~~~
+2024-07-11 15:15:07,400 p=189001 u=stack n=ansible | 2024-07-11 15:15:07.400142 |  The following node(s) had failures: localhost
+2024-07-11 15:15:07,401 p=189001 u=stack n=ansible | 2024-07-11 15:15:07.400670 | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
